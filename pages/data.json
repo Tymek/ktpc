@@ -1,0 +1,4440 @@
+[
+  [
+    "Lp.",
+    "f (kHz)\ndolna",
+    "f (kHz)\ng\u00f3rna",
+    "Przeznaczenie",
+    "U\u017cytkowanie"
+  ],
+  [
+    "1",
+    0,
+    8.3,
+    "(Nie przeznaczono)\n5.53 5.54",
+    ""
+  ],
+  [
+    "2",
+    8.3,
+    9.0,
+    "POMOCE METEOROLOGICZNE 5.54A",
+    "cywilne"
+  ],
+  [
+    "3",
+    9.0,
+    11.3,
+    "RADIONAWIGACJA\nPOMOCE METEOROLOGICZNE 5.54A",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "4",
+    11.3,
+    14.0,
+    "RADIONAWIGACJA",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "5",
+    14.0,
+    19.95,
+    "STA\u0141A\nRUCHOMA MORSKA 5.57\n5.56",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "6",
+    19.95,
+    20.05,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU (20 kHz)",
+    "cywilne"
+  ],
+  [
+    "7",
+    20.05,
+    70.0,
+    "STA\u0141A\nRUCHOMA MORSKA 5.57\n5.56",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "8",
+    70.0,
+    72.0,
+    "RADIONAWIGACJA 5.60",
+    "rz\u0105dowe"
+  ],
+  [
+    "9",
+    72.0,
+    84.0,
+    "STA\u0141A\nRUCHOMA MORSKA 5.57\nRADIONAWIGACJA 5.60\n5.56",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "10",
+    84.0,
+    86.0,
+    "RADIONAWIGACJA 5.60",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "11",
+    86.0,
+    90.0,
+    "STA\u0141A\nRUCHOMA MORSKA 5.57\nRADIONAWIGACJA\n5.56",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "12",
+    90.0,
+    110.0,
+    "RADIONAWIGACJA 5.62\nSta\u0142a\n5.64",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "13",
+    110.0,
+    112.0,
+    "STA\u0141A\nRUCHOMA MORSKA\nRADIONAWIGACJA\n5.64",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "14",
+    112.0,
+    115.0,
+    "RADIONAWIGACJA 5.60",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "15",
+    115.0,
+    117.6,
+    "RADIONAWIGACJA 5.60\nSta\u0142a\nRuchoma morska\n5.64",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "16",
+    117.6,
+    126.0,
+    "STA\u0141A\nRUCHOMA MORSKA\nRADIONAWIGACJA 5.60\n5.64",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "17",
+    126.0,
+    129.0,
+    "RADIONAWIGACJA 5.60",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "18",
+    129.0,
+    130.0,
+    "STA\u0141A\nRUCHOMA MORSKA\nRADIONAWIGACJA 5.60\n5.64",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "19",
+    130.0,
+    135.7,
+    "STA\u0141A\nRUCHOMA MORSKA\n5.64",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "20",
+    135.7,
+    137.8,
+    "STA\u0141A\nRUCHOMA MORSKA\nAmatorska 5.67A\n5.64",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "21",
+    137.8,
+    148.5,
+    "STA\u0141A\nRUCHOMA MORSKA\n5.64",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "22",
+    148.5,
+    255.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "23",
+    255.0,
+    283.5,
+    "RADIONAWIGACJA LOTNICZA\nRADIODYFUZJA",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "24",
+    283.5,
+    315.0,
+    "RADIONAWIGACJA LOTNICZA\nRADIONAWIGACJA MORSKA (radiolatarnie) 5.73\n5.74",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "25",
+    315.0,
+    325.0,
+    "RADIONAWIGACJA LOTNICZA\nRadionawigacja morska (radiolatarnie) 5.73",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "26",
+    325.0,
+    405.0,
+    "RADIONAWIGACJA LOTNICZA",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "27",
+    405.0,
+    415.0,
+    "RADIONAWIGACJA 5.76",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "28",
+    415.0,
+    435.0,
+    "RUCHOMA MORSKA 5.79\nRADIONAWIGACJA LOTNICZA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "29",
+    435.0,
+    472.0,
+    "RUCHOMA MORSKA 5.79\nRadionawigacja lotnicza\n5.82",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "30",
+    472.0,
+    479.0,
+    "RUCHOMA MORSKA 5.79\nRadionawigacja lotnicza\nAmatorska 5.80A\n5.82",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "31",
+    479.0,
+    495.0,
+    "RUCHOMA MORSKA 5.79 5.79A\nRadionawigacja lotnicza\n5.82",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "32",
+    495.0,
+    505.0,
+    "RUCHOMA MORSKA",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "33",
+    505.0,
+    526.5,
+    "RUCHOMA MORSKA 5.79 5.79A 5.84\nRADIONAWIGACJA LOTNICZA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "34",
+    526.5,
+    1606.5,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "35",
+    1606.5,
+    1625.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA\nRUCHOMA MORSKA 5.90\n5.92",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "36",
+    1625.0,
+    1635.0,
+    "STA\u0141A 5.93\nRUCHOMA L\u0104DOWA 5.93\nRADIOLOKALIZACJA",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "37",
+    1635.0,
+    1800.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA\nRUCHOMA MORSKA 5.90\n5.92",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "38",
+    1800.0,
+    1810.0,
+    "STA\u0141A 5.93\nRUCHOMA L\u0104DOWA 5.93\nRADIOLOKALIZACJA",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "39",
+    1810.0,
+    1850.0,
+    "AMATORSKA\n5.100",
+    "cywilne"
+  ],
+  [
+    "40",
+    1850.0,
+    2000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nAMATORSKA 5.96\n5.103",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "41",
+    2000.0,
+    2025.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\n5.92 5.103",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "42",
+    2025.0,
+    2045.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\nPomoce meteorologiczne 5.104\n5.92 5.103",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "43",
+    2045.0,
+    2160.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA\nRUCHOMA MORSKA\n5.92",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "44",
+    2160.0,
+    2170.0,
+    "STA\u0141A 5.93\nRUCHOMA L\u0104DOWA 5.93\nRADIOLOKALIZACJA",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "45",
+    2170.0,
+    2173.5,
+    "RUCHOMA MORSKA",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "46",
+    2173.5,
+    2190.5,
+    "RUCHOMA (ratunkowa i wywo\u0142awcza)\n5.108 5.109 5.110 5.111",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "47",
+    2190.5,
+    2194.0,
+    "RUCHOMA MORSKA",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "48",
+    2194.0,
+    2300.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\n5.92 5.103",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "49",
+    2300.0,
+    2498.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\nRADIODYFUZJA 5.113\n5.103",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "50",
+    2498.0,
+    2501.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\n(2500 kHz)",
+    "cywilne"
+  ],
+  [
+    "51",
+    2501.0,
+    2502.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\nBadania kosmiczne",
+    "cywilne\ncywilne"
+  ],
+  [
+    "52",
+    2502.0,
+    2625.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\n5.92 5.103",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "53",
+    2625.0,
+    2650.0,
+    "RUCHOMA MORSKA\nRADIONAWIGACJA MORSKA\n5.92",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "54",
+    2650.0,
+    2850.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\n5.92 5.103",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "55",
+    2850.0,
+    3025.0,
+    "RUCHOMA LOTNICZA (R)\n5.111 5.115",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "56",
+    3025.0,
+    3155.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "57",
+    3155.0,
+    3200.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\n5.116",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "58",
+    3200.0,
+    3230.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\nRADIODYFUZJA 5.113\n5.116",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "59",
+    3230.0,
+    3400.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIODYFUZJA 5.113\n5.116",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "60",
+    3400.0,
+    3500.0,
+    "RUCHOMA LOTNICZA (R)",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "61",
+    3500.0,
+    3800.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nAMATORSKA\n5.92",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "62",
+    3800.0,
+    3900.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA\nRUCHOMA LOTNICZA (OR)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "63",
+    3900.0,
+    3950.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "64",
+    3950.0,
+    4000.0,
+    "STA\u0141A\nRADIODYFUZJA",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "65",
+    4000.0,
+    4063.0,
+    "STA\u0141A\nRUCHOMA MORSKA 5.127",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "66",
+    4063.0,
+    4438.0,
+    "STA\u0141A\nRUCHOMA MORSKA 5.79A 5.109 5.110 5.130 5.131 5.132\n5.128",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "67",
+    4438.0,
+    4488.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\nRadiolokalizacja 5.132A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "68",
+    4488.0,
+    4650.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "69",
+    4650.0,
+    4700.0,
+    "RUCHOMA LOTNICZA (R)",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "70",
+    4700.0,
+    4750.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "71",
+    4750.0,
+    4850.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA\nRUCHOMA LOTNICZA (OR)\nRADIODYFUZJA 5.113",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "72",
+    4850.0,
+    4995.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA\nRADIODYFUZJA 5.113",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "73",
+    4995.0,
+    5003.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\n(5000 kHz)",
+    "cywilne"
+  ],
+  [
+    "74",
+    5003.0,
+    5005.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\nBadania kosmiczne",
+    "cywilne\ncywilne"
+  ],
+  [
+    "75",
+    5005.0,
+    5060.0,
+    "STA\u0141A\nRADIODYFUZJA 5.113",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "76",
+    5060.0,
+    5250.0,
+    "STA\u0141A\nRuchoma z wyj\u0105tkiem ruchomej lotniczej",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "77",
+    5250.0,
+    5275.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiolokalizacja 5.132A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "78",
+    5275.0,
+    5351.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "79",
+    5351.5,
+    5366.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nAmatorska 5.133B",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "80",
+    5366.5,
+    5450.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "81",
+    5450.0,
+    5480.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA\nRUCHOMA LOTNICZA (OR)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "82",
+    5480.0,
+    5680.0,
+    "RUCHOMA LOTNICZA (R)\n5.111 5.115",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "83",
+    5680.0,
+    5730.0,
+    "RUCHOMA LOTNICZA (OR)\n5.111 5.115",
+    "rz\u0105dowe"
+  ],
+  [
+    "84",
+    5730.0,
+    5900.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "85",
+    5900.0,
+    5950.0,
+    "STA\u0141A 5.136\nRUCHOMA L\u0104DOWA 5.136\nRADIODYFUZJA 5.134",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "86",
+    5950.0,
+    6200.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "87",
+    6200.0,
+    6525.0,
+    "RUCHOMA MORSKA 5.109 5.110 5.130 5.132\n5.137",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "88",
+    6525.0,
+    6685.0,
+    "RUCHOMA LOTNICZA (R)",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "89",
+    6685.0,
+    6765.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "90",
+    6765.0,
+    7000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\n5.138",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "91",
+    7000.0,
+    7100.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "92",
+    7100.0,
+    7200.0,
+    "AMATORSKA",
+    "cywilne"
+  ],
+  [
+    "93",
+    7200.0,
+    7300.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "94",
+    7300.0,
+    7400.0,
+    "STA\u0141A 5.143 5.143B\nRUCHOMA L\u0104DOWA 5.143 5.143B\nRADIODYFUZJA 5.134",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "95",
+    7400.0,
+    7450.0,
+    "STA\u0141A 5.143B\nRUCHOMA L\u0104DOWA 5.143B\nRADIODYFUZJA",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "96",
+    7450.0,
+    8100.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "97",
+    8100.0,
+    8195.0,
+    "STA\u0141A\nRUCHOMA MORSKA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "98",
+    8195.0,
+    8815.0,
+    "RUCHOMA MORSKA 5.109 5.110 5.132 5.145\n5.111",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "99",
+    8815.0,
+    8965.0,
+    "RUCHOMA LOTNICZA (R)",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "100",
+    8965.0,
+    9040.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "101",
+    9040.0,
+    9305.0,
+    "STA\u0141A",
+    "rz\u0105dowe"
+  ],
+  [
+    "102",
+    9305.0,
+    9355.0,
+    "STA\u0141A\nRadiolokalizacja 5.145A",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "103",
+    9355.0,
+    9400.0,
+    "STA\u0141A",
+    "rz\u0105dowe"
+  ],
+  [
+    "104",
+    9400.0,
+    9500.0,
+    "STA\u0141A 5.146\nRADIODYFUZJA 5.134",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "105",
+    9500.0,
+    9900.0,
+    "STA\u0141A 5.147\nRADIODYFUZJA",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "106",
+    9900.0,
+    9995.0,
+    "STA\u0141A",
+    "rz\u0105dowe"
+  ],
+  [
+    "107",
+    9995.0,
+    10003.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\n(10000 kHz)\n5.111",
+    "cywilne"
+  ],
+  [
+    "457",
+    10000.0,
+    10150.0,
+    "STA\u0141A\nRUCHOMA\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne) 5.474A 5.474B\n5.474C\nAmatorska\n5.474D 5.479",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "108",
+    10003.0,
+    10005.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\nBadania kosmiczne\n5.111",
+    "cywilne\ncywilne"
+  ],
+  [
+    "109",
+    10005.0,
+    10100.0,
+    "RUCHOMA LOTNICZA (R)\n5.111",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "110",
+    10100.0,
+    10150.0,
+    "STA\u0141A\nAmatorska",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "111",
+    10150.0,
+    11175.0,
+    "STA\u0141A\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "458",
+    10150.0,
+    10300.0,
+    "STA\u0141A\nRUCHOMA\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne) 5.474A 5.474B\n5.474C\nAmatorska\n5.474D",
+    "cywilne\ncywilne\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "459",
+    10300.0,
+    10400.0,
+    "STA\u0141A\nRUCHOMA\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne) 5.474A 5.474B\n5.474C\nAmatorska\n5.474D",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "460",
+    10400.0,
+    10450.0,
+    "STA\u0141A\nRUCHOMA\nRADIOLOKALIZACJA\nAmatorska",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "461",
+    10450.0,
+    10500.0,
+    "RADIOLOKALIZACJA\nAmatorska\nAmatorska satelitarna",
+    "rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "462",
+    10500.0,
+    10550.0,
+    "STA\u0141A\nRUCHOMA\nRadiolokalizacja",
+    "cywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "463",
+    10550.0,
+    10600.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiolokalizacja",
+    "cywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "464",
+    10600.0,
+    10680.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nRadiolokalizacja\n5.149 5.482 5.482A",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "465",
+    10680.0,
+    10700.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "466",
+    10700.0,
+    10950.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.441\n(Ziemia-kosmos) 5.484\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiodyfuzja satelitarna",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "467",
+    10950.0,
+    11200.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.484A 5.484B (Ziemia-\nkosmos) 5.484\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiodyfuzja satelitarna",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "112",
+    11175.0,
+    11275.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "468",
+    11200.0,
+    11450.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.441\n(Ziemia-kosmos) 5.484\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiodyfuzja satelitarna",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "113",
+    11275.0,
+    11400.0,
+    "RUCHOMA LOTNICZA (R)",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "114",
+    11400.0,
+    11600.0,
+    "STA\u0141A",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "469",
+    11450.0,
+    11700.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.484A\n(Ziemia-kosmos) 5.484 5.484B\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiodyfuzja satelitarna",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "115",
+    11600.0,
+    11650.0,
+    "STA\u0141A 5.146\nRADIODYFUZJA 5.134",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "116",
+    11650.0,
+    12050.0,
+    "STA\u0141A 5.147\nRADIODYFUZJA",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "470",
+    11700.0,
+    12500.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIODYFUZJA\nRADIODYFUZJA SATELITARNA 5.492\n5.487 5.487A POL.25",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "117",
+    12050.0,
+    12100.0,
+    "STA\u0141A 5.146\nRADIODYFUZJA 5.134",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "118",
+    12100.0,
+    12230.0,
+    "STA\u0141A",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "119",
+    12230.0,
+    13200.0,
+    "RUCHOMA MORSKA 5.109 5.110 5.132 5.145",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "471",
+    12500.0,
+    12750.0,
+    "STA\u0141A SATELITARNA (kosmos-Ziemia) 5.484A 5.484B (Ziemia-\nkosmos)\nRadiodyfuzja satelitarna\nPOL.25",
+    "cywilne\ncywilne"
+  ],
+  [
+    "472",
+    12750.0,
+    13250.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.441\nRUCHOMA\nBadania kosmiczne (daleki kosmos) (kosmos-Ziemia)\nPOL.25",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "120",
+    13200.0,
+    13260.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "473",
+    13250.0,
+    13400.0,
+    "RADIONAWIGACJA LOTNICZA 5.497\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\n5.498A POL.25",
+    "rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "121",
+    13260.0,
+    13360.0,
+    "RUCHOMA LOTNICZA (R)",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "122",
+    13360.0,
+    13410.0,
+    "STA\u0141A\nRADIOASTRONOMIA\n5.149",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "474",
+    13400.0,
+    13650.0,
+    "STA\u0141A SATELITARNA (kosmos-Ziemia) 5.499A 5.499B\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE 5.499C 5.499D\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(Ziemia-kosmos)\n5.499E 5.501B POL.25",
+    "cywilne\nrz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "123",
+    13410.0,
+    13450.0,
+    "STA\u0141A\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "124",
+    13450.0,
+    13550.0,
+    "STA\u0141A\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)\nRadiolokalizacja 5.132A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "125",
+    13550.0,
+    13570.0,
+    "STA\u0141A\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)\n5.150",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "126",
+    13570.0,
+    13600.0,
+    "STA\u0141A 5.151\nRUCHOMA Z WYJ\u0104TKIEM RUCHOMEJ LOTNICZEJ (R) 5.151\nRADIODYFUZJA 5.134",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "127",
+    13600.0,
+    13800.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "475",
+    13650.0,
+    13750.0,
+    "RADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE 5.501A\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(Ziemia-kosmos)\n5.501B POL.25",
+    "rz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "476",
+    13750.0,
+    14000.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.484A\nRADIOLOKALIZACJA\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(Ziemia-kosmos)\nSatelitarne badania Ziemi\nBadania kosmiczne\n5.502 5.503",
+    "cywilne\nrz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "128",
+    13800.0,
+    13870.0,
+    "STA\u0141A 5.151\nRUCHOMA Z WYJ\u0104TKIEM RUCHOMEJ LOTNICZEJ (R) 5.151\nRADIODYFUZJA 5.134",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "129",
+    13870.0,
+    14000.0,
+    "STA\u0141A\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "130",
+    14000.0,
+    14250.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "477",
+    14000.0,
+    14250.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.457A 5.484A 5.484B\nRADIONAWIGACJA 5.504\nRuchoma satelitarna (Ziemia-kosmos) 5.504B 5.506A\nBadania kosmiczne\n5.504A POL.25",
+    "cywilne\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "131",
+    14250.0,
+    14350.0,
+    "AMATORSKA",
+    "cywilne"
+  ],
+  [
+    "478",
+    14250.0,
+    14300.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.457A 5.484A 5.484B\nRADIONAWIGACJA 5.504\nRuchoma satelitarna (Ziemia-kosmos) 5.504B 5.506A 5.508A\nBadania kosmiczne\n5.504A POL.25",
+    "cywilne\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "479",
+    14300.0,
+    14400.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.457A 5.484A 5.484B\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRuchoma satelitarna (Ziemia-kosmos) 5.504B 5.506A 5.509A\nRadionawigacja satelitarna\n5.504A POL.25",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "132",
+    14350.0,
+    14990.0,
+    "STA\u0141A\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "480",
+    14400.0,
+    14470.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.457A 5.484A 5.484B\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRuchoma satelitarna (Ziemia-kosmos) 5.504B 5.506A 5.509A\nBadania kosmiczne (kosmos-Ziemia)\n5.504A",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "481",
+    14470.0,
+    14500.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.457A 5.484A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRuchoma satelitarna (Ziemia-kosmos) 5.504B 5.506A 5.509A\nRadioastronomia\n5.149 5.504A",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "482",
+    14500.0,
+    14620.0,
+    "STA\u0141A\nRUCHOMA\nBadania kosmiczne 5.509G\nPOL.25",
+    "cywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "483",
+    14620.0,
+    14800.0,
+    "STA\u0141A\nRUCHOMA\nBadania kosmiczne 5.509G\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "484",
+    14800.0,
+    15230.0,
+    "STA\u0141A\nRUCHOMA\nBadania kosmiczne\n5.339 POL.25",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "133",
+    14990.0,
+    15005.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\n(15000 kHz)\n5.111",
+    "cywilne"
+  ],
+  [
+    "134",
+    15005.0,
+    15010.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\nBadania kosmiczne",
+    "cywilne\ncywilne"
+  ],
+  [
+    "135",
+    15010.0,
+    15100.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "136",
+    15100.0,
+    15600.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "485",
+    15230.0,
+    15350.0,
+    "STA\u0141A\nRUCHOMA\nBadania kosmiczne\n5.339 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "486",
+    15350.0,
+    15400.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "487",
+    15400.0,
+    15430.0,
+    "RADIONAWIGACJA LOTNICZA\nRADIOLOKALIZACJA 5.511E 5.511F",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "488",
+    15430.0,
+    15630.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.511A\nRADIONAWIGACJA LOTNICZA\nRADIOLOKALIZACJA 5.511E 5.511F\n5.511C",
+    "cywilne\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "137",
+    15600.0,
+    15800.0,
+    "STA\u0141A 5.146\nRADIODYFUZJA 5.134",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "489",
+    15630.0,
+    15700.0,
+    "RADIONAWIGACJA LOTNICZA\nRADIOLOKALIZACJA 5.511E 5.511F",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "490",
+    15700.0,
+    16600.0,
+    "RADIOLOKALIZACJA",
+    "rz\u0105dowe"
+  ],
+  [
+    "138",
+    15800.0,
+    16100.0,
+    "STA\u0141A",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "139",
+    16100.0,
+    16200.0,
+    "STA\u0141A\nRadiolokalizacja 5.145A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "140",
+    16200.0,
+    16360.0,
+    "STA\u0141A",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "141",
+    16360.0,
+    17410.0,
+    "RUCHOMA MORSKA 5.109 5.110 5.132 5.145",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "491",
+    16600.0,
+    17100.0,
+    "RADIOLOKALIZACJA\nBadania kosmiczne (daleki kosmos) (Ziemia-kosmos)",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "492",
+    17100.0,
+    17200.0,
+    "RADIOLOKALIZACJA",
+    "rz\u0105dowe"
+  ],
+  [
+    "493",
+    17200.0,
+    17300.0,
+    "RADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\n5.513A",
+    "rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "494",
+    17300.0,
+    17700.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.516\n(kosmos-Ziemia) 5.516A 5.516B\nRadiolokalizacja",
+    "cywilne\nrz\u0105dowe"
+  ],
+  [
+    "142",
+    17410.0,
+    17480.0,
+    "STA\u0141A",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "143",
+    17480.0,
+    17550.0,
+    "STA\u0141A 5.146\nRADIODYFUZJA 5.134",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "144",
+    17550.0,
+    17900.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "495",
+    17700.0,
+    18100.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.484A\n(Ziemia-kosmos) 5.516\nRUCHOMA",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "145",
+    17900.0,
+    17970.0,
+    "RUCHOMA LOTNICZA (R)",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "146",
+    17970.0,
+    18030.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "147",
+    18030.0,
+    18052.0,
+    "STA\u0141A",
+    "rz\u0105dowe"
+  ],
+  [
+    "148",
+    18052.0,
+    18068.0,
+    "STA\u0141A\nBadania kosmiczne",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "149",
+    18068.0,
+    18168.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "496",
+    18100.0,
+    18400.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.484A\n(Ziemia-kosmos) 5.520\nRUCHOMA\n5.519",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "150",
+    18168.0,
+    18780.0,
+    "STA\u0141A\nRuchoma z wyj\u0105tkiem ruchomej lotniczej",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "497",
+    18400.0,
+    18600.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.484A 5.516B\nRUCHOMA",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "498",
+    18600.0,
+    18800.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.522B\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nSATELITARNE BADANIA ZIEMI (pasywne)\nBadania kosmiczne (pasywne)\n5.522A",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "151",
+    18780.0,
+    18900.0,
+    "RUCHOMA MORSKA",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "499",
+    18800.0,
+    19300.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.523A\nRUCHOMA",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "152",
+    18900.0,
+    19020.0,
+    "STA\u0141A 5.146\nRADIODYFUZJA 5.134",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "153",
+    19020.0,
+    19680.0,
+    "STA\u0141A",
+    "rz\u0105dowe"
+  ],
+  [
+    "500",
+    19300.0,
+    19700.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) (Ziemia-kosmos) 5.523B\n5.523C 5.523D 5.523E\nRUCHOMA",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "154",
+    19680.0,
+    19800.0,
+    "RUCHOMA MORSKA 5.132",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "501",
+    19700.0,
+    20100.0,
+    "STA\u0141A SATELITARNA (kosmos-Ziemia) 5.484A 5.516B 5.484B\n5.527A\nRuchoma satelitarna (kosmos-Ziemia)",
+    "cywilne\ncywilne"
+  ],
+  [
+    "155",
+    19800.0,
+    19990.0,
+    "STA\u0141A",
+    "rz\u0105dowe"
+  ],
+  [
+    "156",
+    19990.0,
+    19995.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\nBadania kosmiczne\n5.111",
+    "cywilne\ncywilne"
+  ],
+  [
+    "157",
+    19995.0,
+    20010.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\n(20000 kHz)\n5.111",
+    "cywilne"
+  ],
+  [
+    "158",
+    20010.0,
+    21000.0,
+    "STA\u0141A\nRuchoma",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "502",
+    20100.0,
+    20200.0,
+    "STA\u0141A SATELITARNA (kosmos-Ziemia) 5.484A 5.516B 5.484B\n5.527A\nRUCHOMA SATELITARNA (kosmos-Ziemia)\n5.525 5.526 5.527 5.528",
+    "cywilne\ncywilne"
+  ],
+  [
+    "503",
+    20200.0,
+    21200.0,
+    "STA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA SATELITARNA (kosmos-Ziemia)\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(kosmos-Ziemia)",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "159",
+    21000.0,
+    21450.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "504",
+    21200.0,
+    21400.0,
+    "STA\u0141A\nRUCHOMA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "505",
+    21400.0,
+    22000.0,
+    "STA\u0141A\nRUCHOMA\nRADIODYFUZJA SATELITARNA 5.208B\n5.530A 5.530B 5.530D",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "160",
+    21450.0,
+    21850.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "161",
+    21850.0,
+    21870.0,
+    "STA\u0141A",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "162",
+    21870.0,
+    21924.0,
+    "STA\u0141A 5.155B",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "163",
+    21924.0,
+    22000.0,
+    "RUCHOMA LOTNICZA (R)",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "164",
+    22000.0,
+    22855.0,
+    "RUCHOMA MORSKA 5.132",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "506",
+    22000.0,
+    22210.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\n5.149",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "507",
+    22210.0,
+    22500.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.149 5.532",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "508",
+    22500.0,
+    22550.0,
+    "STA\u0141A\nRUCHOMA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "509",
+    22550.0,
+    23150.0,
+    "STA\u0141A\nRUCHOMA\nBADANIA KOSMICZNE (pasywne) 5.532A\nMI\u0118DZYSATELITARNA 5.338A\n5.149",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "165",
+    22855.0,
+    23000.0,
+    "STA\u0141A",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "166",
+    23000.0,
+    23200.0,
+    "STA\u0141A\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "510",
+    23150.0,
+    23550.0,
+    "STA\u0141A\nRUCHOMA\nMI\u0118DZYSATELITARNA 5.338A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "167",
+    23200.0,
+    23350.0,
+    "STA\u0141A 5.156A\nRUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "168",
+    23350.0,
+    24000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.157",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "511",
+    23550.0,
+    23600.0,
+    "STA\u0141A\nRUCHOMA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "512",
+    23600.0,
+    24000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "169",
+    24000.0,
+    24450.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "513",
+    24000.0,
+    24050.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA\n5.150",
+    "cywilne\ncywilne"
+  ],
+  [
+    "514",
+    24050.0,
+    24250.0,
+    "RADIOLOKALIZACJA\nAmatorska\nSatelitarne badania Ziemi (aktywne)\n5.150",
+    "rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "515",
+    24250.0,
+    24450.0,
+    "STA\u0141A",
+    "cywilne"
+  ],
+  [
+    "170",
+    24450.0,
+    24600.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA\nRadiolokalizacja 5.132A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "516",
+    24450.0,
+    24650.0,
+    "STA\u0141A\nMI\u0118DZYSATELITARNA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "171",
+    24600.0,
+    24890.0,
+    "STA\u0141A\nRUCHOMA L\u0104DOWA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "517",
+    24650.0,
+    24750.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.532B\nMI\u0118DZYSATELITARNA",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "518",
+    24750.0,
+    25250.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.532B",
+    "cywilne\ncywilne"
+  ],
+  [
+    "172",
+    24890.0,
+    24990.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "173",
+    24990.0,
+    25005.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\n(25000 kHz)",
+    "cywilne"
+  ],
+  [
+    "174",
+    25005.0,
+    25010.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\nBadania kosmiczne",
+    "cywilne\ncywilne"
+  ],
+  [
+    "175",
+    25010.0,
+    25070.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "176",
+    25070.0,
+    25210.0,
+    "RUCHOMA MORSKA",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "177",
+    25210.0,
+    25550.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "519",
+    25250.0,
+    25500.0,
+    "STA\u0141A\nRUCHOMA\nMI\u0118DZYSATELITARNA 5.536\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(Ziemia-kosmos)",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "520",
+    25500.0,
+    26500.0,
+    "STA\u0141A\nRUCHOMA\nSATELITARNE BADANIA ZIEMI (kosmos-Ziemia) 5.536B\nBADANIA KOSMICZNE (kosmos-Ziemia)\nMI\u0118DZYSATELITARNA 5.536\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(Ziemia-kosmos)\n5.536A",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "178",
+    25550.0,
+    25670.0,
+    "RADIOASTRONOMIA\n5.149",
+    "cywilne"
+  ],
+  [
+    "179",
+    25670.0,
+    26100.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "180",
+    26100.0,
+    26175.0,
+    "RUCHOMA MORSKA 5.132",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "181",
+    26175.0,
+    26200.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "182",
+    26200.0,
+    26350.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiolokalizacja 5.132A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "183",
+    26350.0,
+    27500.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\n5.150",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "521",
+    26500.0,
+    26900.0,
+    "STA\u0141A\nRUCHOMA\nSATELITARNE BADANIA ZIEMI (kosmos-Ziemia) 5.536B\nBADANIA KOSMICZNE (kosmos-Ziemia)\nMI\u0118DZYSATELITARNA 5.536\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(Ziemia-kosmos)\n5.536A",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "521a",
+    26900.0,
+    27000.0,
+    "STA\u0141A POL.51\nRUCHOMA POL.51\nSATELITARNE BADANIA ZIEMI (kosmos-Ziemia) 5.536B\nBADANIA KOSMICZNE (kosmos-Ziemia)\nMI\u0118DZYSATELITARNA 5.536\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(Ziemia-kosmos)\n5.536A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "522",
+    27000.0,
+    27300.0,
+    "STA\u0141A POL.51\nRUCHOMA POL.51\nMI\u0118DZYSATELITARNA 5.536",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "522a",
+    27300.0,
+    27500.0,
+    "STA\u0141A\nRUCHOMA",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "184",
+    27500.0,
+    28000.0,
+    "STA\u0141A\nRUCHOMA\nPOMOCE METEOROLOGICZNE",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "523",
+    27500.0,
+    28500.0,
+    "STA\u0141A POL.23\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.484A 5.516B 5.539\n5.538 5.540",
+    "cywilne\ncywilne"
+  ],
+  [
+    "185",
+    28000.0,
+    29700.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "524",
+    28500.0,
+    29100.0,
+    "STA\u0141A POL.23\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.484A 5.516B 5.523A\n5.539\nRUCHOMA POL.23\nSatelitarne badania Ziemi (Ziemia-kosmos) 5.541\n5.540",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "525",
+    29100.0,
+    29500.0,
+    "STA\u0141A POL.23\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.516B 5.523C 5.523E\n5.535A 5.539 5.541A\nRUCHOMA POL.23\nSatelitarne badania Ziemi (Ziemia-kosmos) 5.541\n5.540",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "526",
+    29500.0,
+    29900.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.484A 5.484B 5.516B\n5.527A 5.539\nRuchoma satelitarna (Ziemia-kosmos)\nSatelitarne badania Ziemi (Ziemia-kosmos) 5.541\n5.540",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "186",
+    29700.0,
+    30005.0,
+    "STA\u0141A\nRUCHOMA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "527",
+    29900.0,
+    30000.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.484A 5.484B 5.516B\n5.527A 5.539\nRUCHOMA SATELITARNA (Ziemia-kosmos)\nSatelitarne badania Ziemi (Ziemia-kosmos) 5.541 5.543\n5.525 5.526 5.527 5.538 5.540",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "528",
+    30000.0,
+    31000.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.338A\nRUCHOMA SATELITARNA (Ziemia-kosmos)\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(Ziemia-kosmos)",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "187",
+    30005.0,
+    30010.0,
+    "STA\u0141A\nRUCHOMA\nOPERACJE KOSMICZNE (identyfikacja satelit\u00f3w)\nBADANIA KOSMICZNE",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "188",
+    30010.0,
+    33000.0,
+    "STA\u0141A\nRUCHOMA\nPOL.22",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "529",
+    31000.0,
+    31300.0,
+    "STA\u0141A 5.338A\nRUCHOMA\nWzorcowy satelitarny sygna\u0142 cz\u0119stotliwo\u015bci i czasu\n(Ziemia-kosmos)\nBadania kosmiczne 5.544\n5.149",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "530",
+    31300.0,
+    31500.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "531",
+    31500.0,
+    31800.0,
+    "STA\u0141A 5.546\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.546\nRADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.149",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "532",
+    31800.0,
+    32000.0,
+    "STA\u0141A 5.547A\nRADIONAWIGACJA\nBADANIA KOSMICZNE (daleki kosmos) (kosmos-Ziemia)\n5.547 5.548",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "533",
+    32000.0,
+    32300.0,
+    "STA\u0141A 5.547A\nRADIONAWIGACJA\nBADANIA KOSMICZNE (daleki kosmos) (kosmos-Ziemia)\n5.547 5.548",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "534",
+    32300.0,
+    33000.0,
+    "STA\u0141A 5.547A\nRADIONAWIGACJA\nMI\u0118DZYSATELITARNA\n5.547 5.548",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "189",
+    33000.0,
+    37500.0,
+    "STA\u0141A\nRUCHOMA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "535",
+    33000.0,
+    33400.0,
+    "STA\u0141A 5.547A\nRADIONAWIGACJA\n5.547",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "536",
+    33400.0,
+    34200.0,
+    "RADIOLOKALIZACJA POL.22",
+    "rz\u0105dowe"
+  ],
+  [
+    "537",
+    34200.0,
+    34700.0,
+    "RADIOLOKALIZACJA\nBADANIA KOSMICZNE (daleki kosmos) (Ziemia-kosmos)",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "538",
+    34700.0,
+    35200.0,
+    "RADIOLOKALIZACJA\nBadania kosmiczne",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "539",
+    35200.0,
+    35500.0,
+    "RADIOLOKALIZACJA\nPOMOCE METEOROLOGICZNE",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "540",
+    35500.0,
+    36000.0,
+    "RADIOLOKALIZACJA\nPOMOCE METEOROLOGICZNE\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\n5.549A",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "541",
+    36000.0,
+    37000.0,
+    "STA\u0141A\nRUCHOMA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.149 5.550A",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "542",
+    37000.0,
+    37500.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nBADANIA KOSMICZNE (kosmos-Ziemia)\n5.547",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "190",
+    37500.0,
+    38250.0,
+    "STA\u0141A\nRUCHOMA\nRadioastronomia\n5.149",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "543",
+    37500.0,
+    38000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nBADANIA KOSMICZNE (kosmos-Ziemia)\nSatelitarne badania Ziemi (kosmos-Ziemia)\n5.547",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "544",
+    38000.0,
+    39500.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA\nSatelitarne badania Ziemi (kosmos-Ziemia)\n5.547",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "191",
+    38250.0,
+    39000.0,
+    "STA\u0141A\nRUCHOMA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "192",
+    39000.0,
+    39500.0,
+    "STA\u0141A\nRUCHOMA\nRadiolokalizacja 5.132A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "193",
+    39500.0,
+    39986.0,
+    "STA\u0141A\nRUCHOMA",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "545",
+    39500.0,
+    40000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.516B\nRUCHOMA\nRUCHOMA SATELITARNA (kosmos-Ziemia)\nSatelitarne badania Ziemi (kosmos-Ziemia)\n5.547",
+    "cywilne\nrz\u0105dowe\ncywilne\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "194",
+    39986.0,
+    40020.0,
+    "STA\u0141A\nRUCHOMA\nBadania kosmiczne",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "546",
+    40000.0,
+    40500.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.516B\nRUCHOMA\nRUCHOMA SATELITARNA (kosmos-Ziemia)\nSATELITARNE BADANIA ZIEMI (Ziemia-kosmos)\nBADANIA KOSMICZNE (Ziemia-kosmos)\nSatelitarne badania Ziemi (kosmos-Ziemia)",
+    "cywilne\nrz\u0105dowe\ncywilne\nrz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "195",
+    40020.0,
+    40980.0,
+    "STA\u0141A\nRUCHOMA\n5.150",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "547",
+    40500.0,
+    41000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRADIODYFUZJA\nRADIODYFUZJA SATELITARNA\nRuchoma\n5.547",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "196",
+    40980.0,
+    41015.0,
+    "STA\u0141A\nRUCHOMA\nBadania kosmiczne",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "548",
+    41000.0,
+    42500.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.516B\nRADIODYFUZJA\nRADIODYFUZJA SATELITARNA\nRuchoma\n5.547 5.551H 5.551I",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "197",
+    41015.0,
+    42000.0,
+    "STA\u0141A\nRUCHOMA",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "198",
+    42000.0,
+    42500.0,
+    "STA\u0141A\nRUCHOMA\nRadiolokalizacja 5.132A",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "199",
+    42500.0,
+    44000.0,
+    "STA\u0141A\nRUCHOMA",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "549",
+    42500.0,
+    43500.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.552\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIOASTRONOMIA\n5.149 5.547",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "550",
+    43500.0,
+    45500.0,
+    "RUCHOMA 5.553\nRUCHOMA SATELITARNA\nRADIONAWIGACJA\nRADIONAWIGACJA SATELITARNA\n5.554",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "200",
+    44000.0,
+    47000.0,
+    "STA\u0141A\nRUCHOMA\nRadiolokalizacja 5.162A",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "551",
+    45500.0,
+    47000.0,
+    "RUCHOMA 5.553\nRUCHOMA SATELITARNA\nRADIONAWIGACJA\nRADIONAWIGACJA SATELITARNA\n5.554",
+    "cywilne\ncywilne\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "201",
+    47000.0,
+    48000.0,
+    "RUCHOMA L\u0104DOWA 5.164\nRadiolokalizacja 5.162A",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "552",
+    47000.0,
+    47200.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "553",
+    47200.0,
+    47500.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.552\nRUCHOMA\n5.552A",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "554",
+    47500.0,
+    47900.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.552\n(kosmos-Ziemia) 5.516B 5.554A\nRUCHOMA",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "555",
+    47900.0,
+    48200.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.552\nRUCHOMA\n5.552A",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "202",
+    48000.0,
+    50000.0,
+    "RUCHOMA L\u0104DOWA 5.164\nRadiolokalizacja 5.162A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "556",
+    48200.0,
+    48540.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.552\n(kosmos-Ziemia) 5.516B 5.554A 5.555B\nRUCHOMA",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "557",
+    48540.0,
+    49440.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.552\nRUCHOMA\n5.149 5.340 5.555",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "558",
+    49440.0,
+    50200.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.338A 5.552\n(kosmos-Ziemia) 5.516B 5.554A 5.555B\nRUCHOMA",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "203",
+    50000.0,
+    52000.0,
+    "RUCHOMA L\u0104DOWA 5.164\nAmatorska POL.30\nRadiolokalizacja 5.162A",
+    "rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "559",
+    50200.0,
+    50400.0,
+    "SATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    "cywilne\ncywilne"
+  ],
+  [
+    "560",
+    50400.0,
+    51400.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.338A\nRUCHOMA\nRuchoma satelitarna (Ziemia-kosmos)",
+    "cywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "561",
+    51400.0,
+    52600.0,
+    "STA\u0141A 5.338A\nRUCHOMA\n5.547 5.556",
+    "cywilne\ncywilne"
+  ],
+  [
+    "204",
+    52000.0,
+    52012.5,
+    "RUCHOMA L\u0104DOWA 5.164\nRadiolokalizacja 5.162A",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "205",
+    52012.5,
+    52087.5,
+    "RUCHOMA L\u0104DOWA 5.164\nRadiolokalizacja 5.162A",
+    "cywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "206",
+    52087.5,
+    67950.0,
+    "RUCHOMA L\u0104DOWA 5.164\nRadiolokalizacja 5.162A",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "562",
+    52600.0,
+    54250.0,
+    "SATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340 5.556",
+    "cywilne\ncywilne"
+  ],
+  [
+    "563",
+    54250.0,
+    55780.0,
+    "SATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nMI\u0118DZYSATELITARNA 5.556A",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "564",
+    55780.0,
+    56900.0,
+    "STA\u0141A 5.557A\nRUCHOMA 5.558\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nMI\u0118DZYSATELITARNA 5.556A\n5.547",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "565",
+    56900.0,
+    57000.0,
+    "STA\u0141A\nRUCHOMA 5.558\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nMI\u0118DZYSATELITARNA 5.558A\n5.547",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "566",
+    57000.0,
+    58200.0,
+    "STA\u0141A\nRUCHOMA 5.558\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nMI\u0118DZYSATELITARNA 5.556A\n5.547",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "567",
+    58200.0,
+    59000.0,
+    "STA\u0141A\nRUCHOMA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.547 5.556",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "568",
+    59000.0,
+    59300.0,
+    "STA\u0141A\nRUCHOMA 5.558\nRADIOLOKALIZACJA 5.559\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nMI\u0118DZYSATELITARNA 5.556A",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "569",
+    59300.0,
+    61000.0,
+    "STA\u0141A\nRUCHOMA 5.558\nRADIOLOKALIZACJA 5.559\nMI\u0118DZYSATELITARNA",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "570",
+    61000.0,
+    63000.0,
+    "STA\u0141A\nRUCHOMA 5.558\nRADIOLOKALIZACJA 5.559\nMI\u0118DZYSATELITARNA\n5.138",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "571",
+    63000.0,
+    64000.0,
+    "STA\u0141A\nRUCHOMA 5.558\nRADIOLOKALIZACJA 5.559\nMI\u0118DZYSATELITARNA",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "572",
+    64000.0,
+    65000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nMI\u0118DZYSATELITARNA\n5.547 5.556",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "573",
+    65000.0,
+    66000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nSATELITARNE BADANIA ZIEMI\nBADANIA KOSMICZNE\nMI\u0118DZYSATELITARNA\n5.547",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "574",
+    66000.0,
+    71000.0,
+    "RUCHOMA 5.553 5.558\nRUCHOMA SATELITARNA\nRADIONAWIGACJA\nRADIONAWIGACJA SATELITARNA\nMI\u0118DZYSATELITARNA\n5.554",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "207",
+    67950.0,
+    68000.0,
+    "RUCHOMA L\u0104DOWA 5.164\nRadiolokalizacja 5.162A",
+    "cywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "208",
+    68000.0,
+    69200.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej POL.47",
+    "cywilne\ncywilne"
+  ],
+  [
+    "209",
+    69200.0,
+    69900.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "210",
+    69900.0,
+    70000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej POL.47",
+    "cywilne\ncywilne"
+  ],
+  [
+    "211",
+    70000.0,
+    70300.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nAmatorska POL.38",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "212",
+    70300.0,
+    73300.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej POL.47\n5.149",
+    "cywilne\ncywilne"
+  ],
+  [
+    "575",
+    71000.0,
+    73000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA\nRUCHOMA SATELITARNA (kosmos-Ziemia)",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "576",
+    73000.0,
+    74000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA\nRUCHOMA SATELITARNA (kosmos-Ziemia)",
+    "cywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "213",
+    73300.0,
+    74100.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\n5.149",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "577",
+    74000.0,
+    76000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA\nRADIODYFUZJA\nRADIODYFUZJA SATELITARNA\nBadania kosmiczne (kosmos-Ziemia)\n5.561",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "214",
+    74100.0,
+    74800.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\n5.149",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "215",
+    74800.0,
+    75200.0,
+    "RADIONAWIGACJA LOTNICZA\n5.180",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "216",
+    75200.0,
+    77500.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "578",
+    76000.0,
+    77000.0,
+    "RADIOLOKALIZACJA\nRADIOASTRONOMIA\nAmatorska\nAmatorska satelitarna\nBadania kosmiczne (kosmos-Ziemia)\n5.149",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "579",
+    77000.0,
+    77500.0,
+    "RADIOLOKALIZACJA\nRADIOASTRONOMIA\nAmatorska\nAmatorska satelitarna\nBadania kosmiczne (kosmos-Ziemia)\n5.149",
+    "rz\u0105dowe\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "217",
+    77500.0,
+    79000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "580",
+    77500.0,
+    78000.0,
+    "RADIOLOKALIZACJA 5.559B\nAMATORSKA\nAMATORSKA SATELITARNA\nRadioastronomia\nBadania kosmiczne (kosmos-Ziemia)\n5.149",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "581",
+    78000.0,
+    79000.0,
+    "RADIOLOKALIZACJA\nAmatorska\nAmatorska satelitarna\nRadioastronomia\nBadania kosmiczne (kosmos-Ziemia)\n5.149 5.560",
+    "rz\u0105dowe\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "218",
+    79000.0,
+    79700.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "582",
+    79000.0,
+    81000.0,
+    "RADIOASTRONOMIA\nRADIOLOKALIZACJA\nAmatorska\nAmatorska satelitarna\nBadania kosmiczne (kosmos-Ziemia)\n5.149",
+    "cywilne\nrz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "219",
+    79700.0,
+    85000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "583",
+    81000.0,
+    83000.0,
+    "STA\u0141A 5.338A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\nRUCHOMA SATELITARNA (Ziemia-kosmos)\nRADIOASTRONOMIA\nBadania kosmiczne (kosmos-Ziemia)\nAmatorska 5.561A\nAmatorska satelitarna 5.561A\n5.149",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "584",
+    83000.0,
+    84000.0,
+    "STA\u0141A 5.338A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\nRUCHOMA SATELITARNA (Ziemia-kosmos)\nRADIOASTRONOMIA\nBadania kosmiczne (kosmos-Ziemia)\n5.149",
+    "cywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "585",
+    84000.0,
+    86000.0,
+    "STA\u0141A 5.338A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\nRADIOASTRONOMIA\n5.149",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "220",
+    85000.0,
+    87500.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "586",
+    86000.0,
+    92000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "221",
+    87500.0,
+    100000.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "587",
+    92000.0,
+    94000.0,
+    "STA\u0141A 5.338A\nRUCHOMA\nRADIOLOKALIZACJA\nRADIOASTRONOMIA\n5.149",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "588",
+    94000.0,
+    94100.0,
+    "RADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\nRadioastronomia\n5.562 5.562A",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "589",
+    94100.0,
+    95000.0,
+    "STA\u0141A\nRUCHOMA\nRADIOLOKALIZACJA\nRADIOASTRONOMIA\n5.149",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "590",
+    95000.0,
+    100000.0,
+    "STA\u0141A\nRUCHOMA\nRADIONAWIGACJA\nRADIONAWIGACJA SATELITARNA\nRADIOLOKALIZACJA\nRADIOASTRONOMIA\n5.149 5.554",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "222",
+    100000.0,
+    108000.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "591",
+    100000.0,
+    102000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340 5.341",
+    ""
+  ],
+  [
+    "592",
+    102000.0,
+    105000.0,
+    "STA\u0141A\nRUCHOMA\nRADIOASTRONOMIA\n5.149 5.341",
+    ""
+  ],
+  [
+    "593",
+    105000.0,
+    109500.0,
+    "STA\u0141A\nRUCHOMA\nRADIOASTRONOMIA\nBADANIA KOSMICZNE (pasywne) 5.562B\n5.149 5.341",
+    ""
+  ],
+  [
+    "223",
+    108000.0,
+    117975.0,
+    "RADIONAWIGACJA LOTNICZA\nRUCHOMA LOTNICZA (R) 5.197A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "594",
+    109500.0,
+    111800.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340 5.341",
+    ""
+  ],
+  [
+    "595",
+    111800.0,
+    114250.0,
+    "STA\u0141A\nRUCHOMA\nRADIOASTRONOMIA\nBADANIA KOSMICZNE (pasywne) 5.562B\n5.149 5.341",
+    ""
+  ],
+  [
+    "596",
+    114250.0,
+    116000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340 5.341",
+    ""
+  ],
+  [
+    "597",
+    116000.0,
+    119980.0,
+    "SATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nMI\u0118DZYSATELITARNA 5.562C\n5.341",
+    ""
+  ],
+  [
+    "224",
+    117975.0,
+    132000.0,
+    "RUCHOMA LOTNICZA (R)\n5.111 5.200",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "598",
+    119980.0,
+    122250.0,
+    "SATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nMI\u0118DZYSATELITARNA 5.562C\n5.138 5.341",
+    ""
+  ],
+  [
+    "599",
+    122250.0,
+    123000.0,
+    "STA\u0141A\nRUCHOMA 5.558\nMI\u0118DZYSATELITARNA\nAmatorska\n5.138",
+    ""
+  ],
+  [
+    "600",
+    123000.0,
+    130000.0,
+    "STA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA SATELITARNA (kosmos-Ziemia)\nRADIONAWIGACJA\nRADIONAWIGACJA SATELITARNA\nRadioastronomia\n5.149 5.554",
+    ""
+  ],
+  [
+    "601",
+    130000.0,
+    134000.0,
+    "STA\u0141A\nRUCHOMA 5.558\nRADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (aktywne) 5.562E\nMI\u0118DZYSATELITARNA\n5.149 5.562A",
+    ""
+  ],
+  [
+    "225",
+    132000.0,
+    136000.0,
+    "RUCHOMA LOTNICZA (R)\nRUCHOMA LOTNICZA (OR) 5.201 POL.22",
+    "cywilno-rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "602",
+    134000.0,
+    136000.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA\nRadioastronomia",
+    ""
+  ],
+  [
+    "226",
+    136000.0,
+    137000.0,
+    "RUCHOMA LOTNICZA (R)\nRUCHOMA LOTNICZA (OR) 5.202 POL.22",
+    "cywilno-rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "603",
+    136000.0,
+    141000.0,
+    "RADIOLOKALIZACJA\nRADIOASTRONOMIA\nAmatorska\nAmatorska satelitarna\n5.149",
+    ""
+  ],
+  [
+    "227",
+    137000.0,
+    137025.0,
+    "RUCHOMA LOTNICZA (OR) 5.206\nRUCHOMA SATELITARNA (kosmos-Ziemia) 5.208A 5.208B\n5.209 POL.7\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\nBADANIA KOSMICZNE (kosmos-Ziemia)\nOPERACJE KOSMICZNE (kosmos-Ziemia)\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)\n5.208",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "228",
+    137025.0,
+    137175.0,
+    "RUCHOMA LOTNICZA (OR) 5.206\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\nBADANIA KOSMICZNE (kosmos-Ziemia)\nOPERACJE KOSMICZNE (kosmos-Ziemia)\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)\nRuchoma satelitarna (kosmos-Ziemia) 5.208A 5.208B 5.209 POL.7\n5.208",
+    "rz\u0105dowe\ncywilne\ncywilne\ncywilne\nrz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "229",
+    137175.0,
+    137825.0,
+    "RUCHOMA LOTNICZA (OR) 5.206\nRUCHOMA SATELITARNA (kosmos-Ziemia) 5.208A 5.208B\n5.209 POL.7\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\nBADANIA KOSMICZNE (kosmos-Ziemia)\nOPERACJE KOSMICZNE (kosmos-Ziemia)\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)\n5.208",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "230",
+    137825.0,
+    138000.0,
+    "RUCHOMA LOTNICZA (OR) 5.206\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\nBADANIA KOSMICZNE (kosmos-Ziemia)\nOPERACJE KOSMICZNE (kosmos-Ziemia)\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej (R)\nRuchoma satelitarna (kosmos-Ziemia) 5.208A 5.209 POL.7\n5.208",
+    "rz\u0105dowe\ncywilne\ncywilne\ncywilne\nrz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "231",
+    138000.0,
+    143600.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "604",
+    141000.0,
+    148500.0,
+    "STA\u0141A\nRUCHOMA\nRADIOLOKALIZACJA\nRADIOASTRONOMIA\n5.149",
+    ""
+  ],
+  [
+    "232",
+    143600.0,
+    143650.0,
+    "RUCHOMA LOTNICZA (OR)\nBADANIA KOSMICZNE (kosmos-Ziemia)",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "233",
+    143650.0,
+    144000.0,
+    "RUCHOMA LOTNICZA (OR)",
+    "rz\u0105dowe"
+  ],
+  [
+    "234",
+    144000.0,
+    146000.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA",
+    "cywilne\ncywilne"
+  ],
+  [
+    "235",
+    146000.0,
+    147800.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R) POL.22",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "236",
+    147800.0,
+    147975.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)",
+    "cywilne\ncywilne"
+  ],
+  [
+    "237",
+    147975.0,
+    148000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)",
+    "cywilne\ncywilne"
+  ],
+  [
+    "238",
+    148000.0,
+    148650.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.209\n5.218 5.219 5.221",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "605",
+    148500.0,
+    151500.0,
+    "SATELITARNE BADANIA ZIEMI (pasywne)\nRADIOASTRONOMIA\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    ""
+  ],
+  [
+    "239",
+    148650.0,
+    149900.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\nRuchoma satelitarna (Ziemia-kosmos) 5.209\n5.218 5.219 5.221 POL.8",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "240",
+    149900.0,
+    150050.0,
+    "RUCHOMA POL.50\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.209\n5.220 POL.25",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "241",
+    150050.0,
+    151625.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIOASTRONOMIA\n5.149 POL.25",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "606",
+    151500.0,
+    155500.0,
+    "STA\u0141A\nRUCHOMA\nRADIOLOKALIZACJA\nRADIOASTRONOMIA\n5.149",
+    ""
+  ],
+  [
+    "242",
+    151625.0,
+    151775.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIOASTRONOMIA\n5.149",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "243",
+    151775.0,
+    153000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIOASTRONOMIA\n5.149",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "244",
+    153000.0,
+    154000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\nPomoce meteorologiczne\nPOL.25",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "245",
+    154000.0,
+    154400.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\nPOL.25",
+    "cywilne\ncywilne"
+  ],
+  [
+    "246",
+    154400.0,
+    156487.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\n5.226 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "607",
+    155500.0,
+    158500.0,
+    "STA\u0141A\nRUCHOMA\nRADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne) 5.562F\nBADANIA KOSMICZNE (pasywne) 5.562B\n5.149 5.562G",
+    ""
+  ],
+  [
+    "247",
+    156487.5,
+    156512.5,
+    "RUCHOMA MORSKA (ratunkowa i wywo\u0142awcza poprzez DSC)\n5.226 5.227 POL.25",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "248",
+    156512.5,
+    156537.5,
+    "RUCHOMA MORSKA (ratunkowa i wywo\u0142awcza poprzez DSC)\n5.111 5.226 POL.25",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "249",
+    156537.5,
+    156562.5,
+    "RUCHOMA MORSKA (ratunkowa i wywo\u0142awcza poprzez DSC)\n5.226 5.227 POL.25",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "250",
+    156562.5,
+    156762.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej (R)\n5.226 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "251",
+    156762.5,
+    156787.5,
+    "RUCHOMA MORSKA\nRuchoma satelitarna (Ziemia-kosmos)\n5.111 5.226 5.228",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "252",
+    156787.5,
+    156812.5,
+    "RUCHOMA MORSKA (ratunkowa i wywo\u0142awcza)\n5.111 5.226",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "253",
+    156812.5,
+    156837.5,
+    "RUCHOMA MORSKA (ratunkowa i wywo\u0142awcza)\nRuchoma satelitarna (Ziemia-kosmos)\n5.111 5.226 5.228",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "254",
+    156837.5,
+    157450.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\n5.226 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "255",
+    157450.0,
+    157950.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "256",
+    157950.0,
+    158575.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "cywilne\ncywilne"
+  ],
+  [
+    "608",
+    158500.0,
+    164000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA\nRUCHOMA SATELITARNA (kosmos-Ziemia)",
+    ""
+  ],
+  [
+    "257",
+    158575.0,
+    158950.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "258",
+    158950.0,
+    159200.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "cywilne\ncywilne"
+  ],
+  [
+    "259",
+    159200.0,
+    159625.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "260",
+    159625.0,
+    159900.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "cywilne\ncywilne"
+  ],
+  [
+    "261",
+    159900.0,
+    160975.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\n5.226 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "262",
+    160975.0,
+    161475.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "263",
+    161475.0,
+    161937.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\n5.226 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "264",
+    161937.5,
+    161962.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRuchoma satelitarna morska (Ziemia-kosmos) 5.228AA\n5.226 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "265",
+    161962.5,
+    161987.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRuchoma satelitarna (Ziemia-kosmos) 5.228F\n5.226 5.228A 5.228B POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "266",
+    161987.5,
+    162012.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRuchoma satelitarna morska (Ziemia-kosmos) 5.228AA\n5.226 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "267",
+    162012.5,
+    162037.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRuchoma satelitarna (Ziemia-kosmos) 5.228F\n5.226 5.228A 5.228B POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "268",
+    162037.5,
+    162050.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\n5.226 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "269",
+    162050.0,
+    162250.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "270",
+    162250.0,
+    164500.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "609",
+    164000.0,
+    167000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    ""
+  ],
+  [
+    "271",
+    164500.0,
+    167500.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "610",
+    167000.0,
+    174500.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA 5.558\nMI\u0118DZYSATELITARNA\n5.149",
+    ""
+  ],
+  [
+    "272",
+    167500.0,
+    169150.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "273",
+    169150.0,
+    169400.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "274",
+    169400.0,
+    169812.5,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "cywilne\ncywilne"
+  ],
+  [
+    "275",
+    169812.5,
+    172000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "276",
+    172000.0,
+    174000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "277",
+    174000.0,
+    223000.0,
+    "RADIODYFUZJA",
+    "cywilne"
+  ],
+  [
+    "611",
+    174500.0,
+    174800.0,
+    "STA\u0141A\nRUCHOMA 5.558\nMI\u0118DZYSATELITARNA",
+    ""
+  ],
+  [
+    "612",
+    174800.0,
+    182000.0,
+    "SATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nMI\u0118DZYSATELITARNA 5.562H",
+    ""
+  ],
+  [
+    "613",
+    182000.0,
+    185000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    ""
+  ],
+  [
+    "614",
+    185000.0,
+    190000.0,
+    "SATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\nMI\u0118DZYSATELITARNA 5.562H",
+    ""
+  ],
+  [
+    "615",
+    190000.0,
+    191800.0,
+    "SATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    ""
+  ],
+  [
+    "616",
+    191800.0,
+    200000.0,
+    "STA\u0141A\nRUCHOMA 5.558\nRUCHOMA SATELITARNA\nRADIONAWIGACJA\nRADIONAWIGACJA SATELITARNA\nMI\u0118DZYSATELITARNA\n5.149 5.341 5.554",
+    ""
+  ],
+  [
+    "617",
+    200000.0,
+    202000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340 5.341 5.563A",
+    ""
+  ],
+  [
+    "618",
+    202000.0,
+    209000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340 5.341 5.563A",
+    ""
+  ],
+  [
+    "619",
+    209000.0,
+    217000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\nRADIOASTRONOMIA\n5.149 5.341",
+    ""
+  ],
+  [
+    "620",
+    217000.0,
+    226000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\nRADIOASTRONOMIA\nBADANIA KOSMICZNE (pasywne) 5.562B\n5.149 5.341",
+    ""
+  ],
+  [
+    "278",
+    223000.0,
+    230000.0,
+    "RADIODYFUZJA\nSta\u0142a\nRuchoma",
+    "cywilne\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "621",
+    226000.0,
+    231500.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    ""
+  ],
+  [
+    "279",
+    230000.0,
+    235000.0,
+    "STA\u0141A\nRUCHOMA",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "622",
+    231500.0,
+    232000.0,
+    "STA\u0141A\nRUCHOMA\nRadiolokalizacja",
+    ""
+  ],
+  [
+    "623",
+    232000.0,
+    235000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA\nRadiolokalizacja",
+    ""
+  ],
+  [
+    "280",
+    235000.0,
+    242950.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA 5.254",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "624",
+    235000.0,
+    238000.0,
+    "STA\u0141A SATELITARNA (kosmos-Ziemia)\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.563A 5.563B",
+    ""
+  ],
+  [
+    "625",
+    238000.0,
+    240000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA\nRADIONAWIGACJA\nRADIONAWIGACJA SATELITARNA\nRADIOLOKALIZACJA",
+    ""
+  ],
+  [
+    "626",
+    240000.0,
+    241000.0,
+    "STA\u0141A\nRUCHOMA\nRADIOLOKALIZACJA",
+    ""
+  ],
+  [
+    "627",
+    241000.0,
+    248000.0,
+    "RADIOLOKALIZACJA\nRADIOASTRONOMIA\nAmatorska\nAmatorska satelitarna\n5.138 5.149",
+    ""
+  ],
+  [
+    "281",
+    242950.0,
+    243050.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA 5.254\n5.111 5.256",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "282",
+    243050.0,
+    267000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA 5.254",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "628",
+    248000.0,
+    250000.0,
+    "AMATORSKA\nAMATORSKA SATELITARNA\nRadioastronomia\n5.149",
+    ""
+  ],
+  [
+    "629",
+    250000.0,
+    252000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340 5.563A",
+    ""
+  ],
+  [
+    "630",
+    252000.0,
+    265000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA (Ziemia-kosmos)\nRADIONAWIGACJA\nRADIONAWIGACJA SATELITARNA\nRADIOASTRONOMIA\n5.149 5.554",
+    ""
+  ],
+  [
+    "631",
+    265000.0,
+    275000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\nRADIOASTRONOMIA\n5.149 5.563A",
+    ""
+  ],
+  [
+    "283",
+    267000.0,
+    272000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA 5.254\nOperacje kosmiczne (kosmos-Ziemia)\n5.257",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "284",
+    272000.0,
+    273000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA 5.254\nOPERACJE KOSMICZNE (kosmos-Ziemia)",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "285",
+    273000.0,
+    312000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA 5.254",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "632",
+    275000.0,
+    3000000.0,
+    "(Nie przeznaczono) 5.565",
+    ""
+  ],
+  [
+    "286",
+    312000.0,
+    315000.0,
+    "STA\u0141A\nRUCHOMA\nRuchoma satelitarna 5.254 5.255",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "287",
+    315000.0,
+    322000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA 5.254",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "288",
+    322000.0,
+    328600.0,
+    "STA\u0141A\nRUCHOMA\nRADIOASTRONOMIA\n5.149",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "289",
+    328600.0,
+    335400.0,
+    "RADIONAWIGACJA LOTNICZA 5.258",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "290",
+    335400.0,
+    387000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA 5.254",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "291",
+    387000.0,
+    390000.0,
+    "STA\u0141A\nRUCHOMA\nRuchoma satelitarna (kosmos-Ziemia) 5.208A 5.208B 5.254 5.255",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "292",
+    390000.0,
+    399900.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA 5.254",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "293",
+    399900.0,
+    400050.0,
+    "RUCHOMA SATELITARNA (Ziemia-kosmos) 5.209 5.220",
+    "cywilno-rz\u0105dowe"
+  ],
+  [
+    "294",
+    400050.0,
+    400150.0,
+    "WZORCOWY SYGNA\u0141 CZ\u0118STOTLIWO\u015aCI I CZASU\n(400,1 MHz)\n5.261",
+    "cywilne"
+  ],
+  [
+    "295",
+    400150.0,
+    401000.0,
+    "RUCHOMA SATELITARNA (kosmos-Ziemia) 5.208A 5.208B\n5.209\nPOMOCE METEOROLOGICZNE\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\nBADANIA KOSMICZNE (kosmos-Ziemia) 5.263\nOperacje kosmiczne (kosmos-Ziemia)\n5.264 POL.10",
+    "cywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "296",
+    401000.0,
+    402000.0,
+    "POMOCE METEOROLOGICZNE\nMETEOROLOGIA SATELITARNA (Ziemia-kosmos)\nSATELITARNE BADANIA ZIEMI (Ziemia-kosmos)\nOPERACJE KOSMICZNE (kosmos-Ziemia)\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "297",
+    402000.0,
+    403000.0,
+    "POMOCE METEOROLOGICZNE\nMETEOROLOGIA SATELITARNA (Ziemia-kosmos)\nSATELITARNE BADANIA ZIEMI (Ziemia-kosmos)\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilne\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "298",
+    403000.0,
+    406000.0,
+    "POMOCE METEOROLOGICZNE\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej\n5.265",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "299",
+    406000.0,
+    406100.0,
+    "RUCHOMA SATELITARNA (Ziemia-kosmos)\n5.265 5.266 5.267",
+    "cywilne"
+  ],
+  [
+    "300",
+    406100.0,
+    410000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIOASTRONOMIA\n5.149 5.265",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "301",
+    410000.0,
+    412000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nBADANIA KOSMICZNE (kosmos-kosmos) 5.268",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "302",
+    412000.0,
+    420000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nBADANIA KOSMICZNE (kosmos-kosmos) 5.268",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "303",
+    420000.0,
+    422000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiolokalizacja",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "304",
+    422000.0,
+    430000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiolokalizacja",
+    "cywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "305",
+    430000.0,
+    432000.0,
+    "STA\u0141A 5.277\nRADIOLOKALIZACJA\nAMATORSKA",
+    "cywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "306",
+    432000.0,
+    433050.0,
+    "STA\u0141A 5.277\nRADIOLOKALIZACJA\nAMATORSKA\nSatelitarne badania Ziemi (aktywne) 5.279A",
+    "cywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "307",
+    433050.0,
+    434790.0,
+    "STA\u0141A 5.277\nRADIOLOKALIZACJA\nAMATORSKA\nRuchoma l\u0105dowa\nSatelitarne badania Ziemi (aktywne) 5.279A\n5.138",
+    "cywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "308",
+    434790.0,
+    438000.0,
+    "STA\u0141A 5.277\nRADIOLOKALIZACJA\nAMATORSKA\nAMATORSKA SATELITARNA 5.282\nSatelitarne badania Ziemi (aktywne) 5.279A",
+    "cywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "309",
+    438000.0,
+    440000.0,
+    "STA\u0141A 5.277\nRADIOLOKALIZACJA\nAMATORSKA",
+    "cywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "310",
+    440000.0,
+    446000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiolokalizacja",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "311",
+    446000.0,
+    446200.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiolokalizacja",
+    "rz\u0105dowe\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "312",
+    446200.0,
+    448000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRadiolokalizacja",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "313",
+    448000.0,
+    450000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej POL.47\nRadiolokalizacja\n5.286",
+    "cywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "314",
+    450000.0,
+    452500.0,
+    "STA\u0141A\nRUCHOMA 5.286AA\n5.286",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "315",
+    452500.0,
+    455000.0,
+    "STA\u0141A\nRUCHOMA 5.286AA\n5.209 5.286A",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "316",
+    455000.0,
+    456000.0,
+    "STA\u0141A\nRUCHOMA 5.286AA\n5.209 5.286A",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "317",
+    456000.0,
+    457000.0,
+    "STA\u0141A\nRUCHOMA 5.286AA",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "318",
+    457000.0,
+    459000.0,
+    "STA\u0141A\nRUCHOMA 5.286AA\n5.287",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "319",
+    459000.0,
+    460000.0,
+    "STA\u0141A\nRUCHOMA 5.286AA POL.23\n5.209 5.286A",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "320",
+    460000.0,
+    462500.0,
+    "STA\u0141A\nRUCHOMA 5.286AA\nMeteorologia satelitarna (kosmos-Ziemia)\n5.289",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "321",
+    462500.0,
+    467000.0,
+    "STA\u0141A\nRUCHOMA 5.286AA\nMeteorologia satelitarna (kosmos-Ziemia)\n5.289",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "322",
+    467000.0,
+    469700.0,
+    "STA\u0141A\nRUCHOMA 5.286AA\nMeteorologia satelitarna (kosmos-Ziemia)\n5.287 5.289",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "323",
+    469700.0,
+    470000.0,
+    "STA\u0141A\nRUCHOMA 5.286AA POL.23\nMeteorologia satelitarna (kosmos-Ziemia)\n5.289",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "324",
+    470000.0,
+    694000.0,
+    "RADIODYFUZJA\nRuchoma 5.296\n5.149 5.306 5.311A",
+    "cywilne\ncywilne"
+  ],
+  [
+    "325",
+    694000.0,
+    790000.0,
+    "RUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.312A 5.317A\nRADIODYFUZJA\n5.311A",
+    "cywilne\ncywilne"
+  ],
+  [
+    "326",
+    790000.0,
+    860000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.316B 5.317A\nRADIODYFUZJA",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "327",
+    860000.0,
+    862000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.316B 5.317A\nRADIONAWIGACJA LOTNICZA 5.312\nRADIODYFUZJA\nPOL.42",
+    "cywilne\ncywilne\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "328",
+    862000.0,
+    864000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.316B 5.317A POL.32\nRADIONAWIGACJA LOTNICZA 5.323",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "329",
+    864000.0,
+    870000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.316B 5.317A\nRADIONAWIGACJA LOTNICZA 5.323\nPOL.45",
+    "cywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "330",
+    870000.0,
+    876000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.317A POL.47\nRADIONAWIGACJA LOTNICZA 5.323\nPOL.45",
+    "cywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "331",
+    876000.0,
+    880000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.317A\nPOL.43",
+    "cywilne\ncywilne"
+  ],
+  [
+    "332",
+    880000.0,
+    890000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.317A",
+    "cywilne\ncywilne"
+  ],
+  [
+    "333",
+    890000.0,
+    915000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.317A\nRadiolokalizacja POL.12",
+    "cywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "334",
+    915000.0,
+    921000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.317A\nRadiolokalizacja POL.12",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "335",
+    921000.0,
+    925000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.317A\nRadiolokalizacja POL.12\nPOL.43",
+    "cywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "336",
+    925000.0,
+    942000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.317A\nRadiolokalizacja POL.12",
+    "cywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "337",
+    942000.0,
+    960000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.317A",
+    "cywilne\ncywilne"
+  ],
+  [
+    "338",
+    960000.0,
+    1164000.0,
+    "RUCHOMA LOTNICZA (R) 5.327A\nRADIONAWIGACJA LOTNICZA 5.328\n5.328AA POL.29",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "339",
+    1164000.0,
+    1215000.0,
+    "RADIONAWIGACJA LOTNICZA 5.328\nRADIONAWIGACJA SATELITARNA (kosmos-Ziemia) (kosmos-\nkosmos) 5.328B\n5.328A POL.29",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "340",
+    1215000.0,
+    1240000.0,
+    "RADIONAWIGACJA 5.331\nRADIONAWIGACJA SATELITARNA (kosmos-Ziemia) (kosmos-\nkosmos) 5.328B 5.329 5.329A\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\n5.332",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "341",
+    1240000.0,
+    1300000.0,
+    "RADIONAWIGACJA 5.331\nRADIONAWIGACJA SATELITARNA (kosmos-Ziemia) (kosmos-\nkosmos) 5.328B 5.329 5.329A\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\nAmatorska\nAmatorska satelitarna (Ziemia-kosmos) 5.282\n5.332 5.335A",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "342",
+    1300000.0,
+    1350000.0,
+    "RADIONAWIGACJA LOTNICZA 5.337\nRADIONAWIGACJA SATELITARNA (Ziemia-kosmos)\nRADIOLOKALIZACJA\n5.149 5.337A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "343",
+    1350000.0,
+    1400000.0,
+    "STA\u0141A\nRUCHOMA\nRADIOLOKALIZACJA POL.44\n5.149 5.338A 5.339",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "344",
+    1400000.0,
+    1427000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340 5.341",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "345",
+    1427000.0,
+    1429000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.341A\nOPERACJE KOSMICZNE (Ziemia-kosmos)\n5.338A 5.341",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "346",
+    1429000.0,
+    1452000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.341A\n5.338A 5.341",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "347",
+    1452000.0,
+    1492000.0,
+    "STA\u0141A POL.15\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej POL.15\nRADIODYFUZJA\nRADIODYFUZJA SATELITARNA 5.208B\n5.341 5.345",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "348",
+    1492000.0,
+    1518000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.341A\n5.341",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "349",
+    1518000.0,
+    1525000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRUCHOMA SATELITARNA (kosmos-Ziemia) 5.348 5.348A\n5.341",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "350",
+    1525000.0,
+    1530000.0,
+    "STA\u0141A\nRUCHOMA SATELITARNA (kosmos-Ziemia) 5.208B 5.351A\nOPERACJE KOSMICZNE (kosmos-Ziemia)\nRuchoma z wyj\u0105tkiem ruchomej lotniczej\nSatelitarne badania Ziemi\n5.341 5.351 5.354",
+    "rz\u0105dowe\ncywilne\ncywilne\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "351",
+    1530000.0,
+    1535000.0,
+    "RUCHOMA SATELITARNA (kosmos-Ziemia) 5.208B 5.351A\n5.353A\nOPERACJE KOSMICZNE (kosmos-Ziemia)\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej\nSatelitarne badania Ziemi\n5.341 5.351 5.354",
+    "cywilne\ncywilne\nrz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "352",
+    1535000.0,
+    1550000.0,
+    "RUCHOMA SATELITARNA (kosmos-Ziemia) 5.208B 5.351A\n5.341 5.351 5.353A 5.354 5.356 5.357 5.357A",
+    "cywilne"
+  ],
+  [
+    "353",
+    1550000.0,
+    1559000.0,
+    "STA\u0141A 5.359\nRUCHOMA SATELITARNA (kosmos-Ziemia) 5.208B 5.351A\n5.341 5.351 5.354 5.357 5.357A",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "354",
+    1559000.0,
+    1610000.0,
+    "RADIONAWIGACJA LOTNICZA\nRADIONAWIGACJA SATELITARNA (kosmos-Ziemia) (kosmos-\nkosmos) 5.208B 5.328B 5.329A\n5.341 POL.49",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "355",
+    1610000.0,
+    1610600.0,
+    "STA\u0141A 5.359\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A\nRADIONAWIGACJA LOTNICZA\n5.341 5.364 5.366 5.367 5.368 5.371 5.372",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "356",
+    1610600.0,
+    1613800.0,
+    "STA\u0141A 5.359\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A\nRADIONAWIGACJA LOTNICZA\nRADIOASTRONOMIA\n5.149 5.341 5.364 5.366 5.367 5.368 5.371 5.372",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "357",
+    1613800.0,
+    1626500.0,
+    "STA\u0141A 5.359\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A\nRADIONAWIGACJA LOTNICZA\nRuchoma satelitarna (kosmos-Ziemia) 5.208B\n5.341 5.364 5.365 5.366 5.367 5.368 5.371",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "358",
+    1626500.0,
+    1645500.0,
+    "STA\u0141A 5.359\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A\n5.341 5.351 5.353A 5.354 5.374",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "359",
+    1645500.0,
+    1646500.0,
+    "RUCHOMA SATELITARNA (Ziemia-kosmos)\n5.341 5.354 5.375",
+    "cywilne"
+  ],
+  [
+    "360",
+    1646500.0,
+    1656500.0,
+    "STA\u0141A 5.359\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A\n5.341 5.351 5.354 5.357A 5.376",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "361",
+    1656500.0,
+    1660000.0,
+    "STA\u0141A 5.359\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A\n5.341 5.351 5.354 5.374",
+    "rz\u0105dowe\ncywilne"
+  ],
+  [
+    "363",
+    1660500.0,
+    1668000.0,
+    "RADIOASTRONOMIA\nBADANIA KOSMICZNE (pasywne)\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej\n5.149 5.341 5.379A",
+    "cywilne\ncywilne\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "364",
+    1668000.0,
+    1668400.0,
+    "RUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A 5.379B\n5.379C\nRADIOASTRONOMIA\nBADANIA KOSMICZNE (pasywne)\nSta\u0142a\nRuchoma z wyj\u0105tkiem ruchomej lotniczej\n5.149 5.341 5.379A",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilne\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "365",
+    1668400.0,
+    1670000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A 5.379B\n5.379C\nRADIOASTRONOMIA\nPOMOCE METEOROLOGICZNE\n5.149 5.341 5.379D",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "366",
+    1670000.0,
+    1675000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A 5.379B\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\nPOMOCE METEOROLOGICZNE\n5.341 5.379D 5.380A",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "367",
+    1675000.0,
+    1690000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nPOMOCE METEOROLOGICZNE\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\n5.341",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "368",
+    1690000.0,
+    1700000.0,
+    "STA\u0141A 5.382\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.382\nPOMOCE METEOROLOGICZNE\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\n5.289 5.341",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "369",
+    1700000.0,
+    1710000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\n5.289 5.341",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "370",
+    1710000.0,
+    1785000.0,
+    "STA\u0141A\nRUCHOMA 5.384A\n5.149 5.341 5.385",
+    "cywilne\ncywilne"
+  ],
+  [
+    "371",
+    1785000.0,
+    1800000.0,
+    "STA\u0141A\nRUCHOMA 5.384A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "372",
+    1800000.0,
+    1805000.0,
+    "STA\u0141A\nRUCHOMA 5.384A",
+    "cywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "373",
+    1805000.0,
+    1880000.0,
+    "STA\u0141A\nRUCHOMA 5.384A",
+    "cywilne\ncywilne"
+  ],
+  [
+    "374",
+    1880000.0,
+    1885000.0,
+    "STA\u0141A\nRUCHOMA 5.384A",
+    "cywilne\ncywilne"
+  ],
+  [
+    "375",
+    1885000.0,
+    1900000.0,
+    "STA\u0141A\nRUCHOMA 5.388A\n5.388",
+    "cywilne\ncywilne"
+  ],
+  [
+    "376",
+    1900000.0,
+    1980000.0,
+    "STA\u0141A\nRUCHOMA 5.388A\n5.388",
+    "cywilne\ncywilne"
+  ],
+  [
+    "377",
+    1980000.0,
+    2010000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.351A\n5.388 5.389A POL.46",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "378",
+    2010000.0,
+    2025000.0,
+    "STA\u0141A\nRUCHOMA 5.388A\n5.388",
+    "cywilne\ncywilne"
+  ],
+  [
+    "379",
+    2025000.0,
+    2070000.0,
+    "STA\u0141A\nRUCHOMA 5.391\nSATELITARNE BADANIA ZIEMI (Ziemia-kosmos)\n(kosmos-kosmos)\nBADANIA KOSMICZNE (Ziemia-kosmos) (kosmos-kosmos)\nOPERACJE KOSMICZNE (Ziemia-kosmos)\n(kosmos-kosmos)\n5.392 POL.25",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "380",
+    2070000.0,
+    2110000.0,
+    "STA\u0141A\nRUCHOMA 5.391\nSATELITARNE BADANIA ZIEMI (Ziemia-kosmos)\n(kosmos-kosmos)\nBADANIA KOSMICZNE (Ziemia-kosmos) (kosmos-kosmos)\nOPERACJE KOSMICZNE (Ziemia-kosmos)\n(kosmos-kosmos)\n5.392 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "381",
+    2110000.0,
+    2120000.0,
+    "STA\u0141A\nRUCHOMA 5.388A\nBADANIA KOSMICZNE (daleki kosmos) (Ziemia-kosmos)\n5.388",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "382",
+    2120000.0,
+    2170000.0,
+    "STA\u0141A\nRUCHOMA 5.388A\n5.388",
+    "cywilne\ncywilne"
+  ],
+  [
+    "383",
+    2170000.0,
+    2200000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA (kosmos-Ziemia) 5.351A\n5.388 5.389A POL.25 POL.46",
+    "rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "384",
+    2200000.0,
+    2250000.0,
+    "STA\u0141A\nRUCHOMA 5.391\nSATELITARNE BADANIA ZIEMI (kosmos-Ziemia)\n(kosmos-kosmos)\nBADANIA KOSMICZNE (kosmos-Ziemia) (kosmos-kosmos)\nOPERACJE KOSMICZNE (kosmos-Ziemia)\n(kosmos-kosmos)\n5.392 POL.25",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "385",
+    2250000.0,
+    2265000.0,
+    "STA\u0141A\nRUCHOMA 5.391\nSATELITARNE BADANIA ZIEMI (kosmos-Ziemia)\n(kosmos-kosmos)\nBADANIA KOSMICZNE (kosmos-Ziemia) (kosmos-kosmos)\nOPERACJE KOSMICZNE (kosmos-Ziemia)\n(kosmos-kosmos)\n5.392 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "386",
+    2265000.0,
+    2290000.0,
+    "STA\u0141A\nRUCHOMA 5.391 POL.39\nSATELITARNE BADANIA ZIEMI (kosmos-Ziemia)\n(kosmos-kosmos)\nBADANIA KOSMICZNE (kosmos-Ziemia) (kosmos-kosmos)\nOPERACJE KOSMICZNE (kosmos-Ziemia)\n(kosmos-kosmos)\n5.392 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "387",
+    2290000.0,
+    2300000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej POL.39\nBADANIA KOSMICZNE (daleki kosmos) (kosmos-Ziemia)\nPOL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "388",
+    2300000.0,
+    2350000.0,
+    "STA\u0141A\nRUCHOMA 5.384A\nRadiolokalizacja\nAmatorska\nPOL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "389",
+    2350000.0,
+    2400000.0,
+    "STA\u0141A\nRUCHOMA 5.384A\nRadiolokalizacja\nAmatorska\nPOL.25",
+    "cywilne\ncywilne\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "390",
+    2400000.0,
+    2450000.0,
+    "STA\u0141A\nRUCHOMA\nRadiolokalizacja\nAmatorska\nAmatorska satelitarna 5.282\n5.150",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "391",
+    2450000.0,
+    2483500.0,
+    "STA\u0141A\nRUCHOMA\nRadiolokalizacja\n5.150",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "392",
+    2483500.0,
+    2500000.0,
+    "STA\u0141A\nRUCHOMA\nRUCHOMA SATELITARNA (kosmos-Ziemia) 5.351A\nRADIOLOKACJA SATELITARNA (kosmos-Ziemia) 5.398\nRadiolokalizacja\n5.150 5.402",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "393",
+    2500000.0,
+    2520000.0,
+    "STA\u0141A 5.410\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.384A",
+    "cywilne\ncywilne"
+  ],
+  [
+    "394",
+    2520000.0,
+    2655000.0,
+    "STA\u0141A 5.410\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.384A\nRADIODYFUZJA SATELITARNA 5.413 5.416\n5.339 5.403 5.418B 5.418C POL.25",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "395",
+    2655000.0,
+    2670000.0,
+    "STA\u0141A 5.410\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.384A\nRADIODYFUZJA SATELITARNA 5.208B 5.413 5.416\nRadioastronomia\nSatelitarne badania Ziemi (pasywne)\nBadania kosmiczne (pasywne)\n5.149 5.420 POL.25",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "396",
+    2670000.0,
+    2690000.0,
+    "STA\u0141A 5.410\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.384A\nRadioastronomia\nSatelitarne badania Ziemi (pasywne)\nBadania kosmiczne (pasywne)\n5.149 POL.25",
+    "cywilne\ncywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "397",
+    2690000.0,
+    2700000.0,
+    "RADIOASTRONOMIA\nSATELITARNE BADANIA ZIEMI (pasywne)\nBADANIA KOSMICZNE (pasywne)\n5.340",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "398",
+    2700000.0,
+    2900000.0,
+    "RADIONAWIGACJA LOTNICZA 5.337\nRadiolokalizacja\n5.423",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "399",
+    2900000.0,
+    3100000.0,
+    "RADIONAWIGACJA 5.426\nRADIOLOKALIZACJA 5.424A\n5.425 5.427 POL.22",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "400",
+    3100000.0,
+    3300000.0,
+    "RADIOLOKALIZACJA\nSatelitarne badania Ziemi (aktywne)\nBadania kosmiczne (aktywne)\n5.149",
+    "rz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "401",
+    3300000.0,
+    3400000.0,
+    "RADIOLOKALIZACJA\n5.149",
+    "rz\u0105dowe"
+  ],
+  [
+    "402",
+    3400000.0,
+    3410000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.430A\nRadiolokalizacja\nAmatorska POL.38\nPOL.48",
+    "cywilne\ncywilne\ncywilne\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "403",
+    3410000.0,
+    3600000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.430A\nRadiolokalizacja\nPOL.48",
+    "cywilne\ncywilne\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "404",
+    3600000.0,
+    3800000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "405",
+    3800000.0,
+    4200000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRuchoma",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "406",
+    4200000.0,
+    4400000.0,
+    "RUCHOMA LOTNICZA (R) 5.436\nRADIONAWIGACJA LOTNICZA 5.438\n5.437 5.440",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "407",
+    4400000.0,
+    4500000.0,
+    "STA\u0141A\nRUCHOMA",
+    "rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "408",
+    4500000.0,
+    4800000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia) 5.441\nRUCHOMA",
+    "rz\u0105dowe\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "409",
+    4800000.0,
+    4990000.0,
+    "STA\u0141A\nRUCHOMA 5.442\nRadioastronomia\n5.149 5.339",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "410",
+    4990000.0,
+    5000000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRADIOASTRONOMIA\nBadania kosmiczne (pasywne)\n5.149",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "411",
+    5000000.0,
+    5010000.0,
+    "RUCHOMA LOTNICZA SATELITARNA (R) 5.443AA\nRADIONAWIGACJA LOTNICZA\nRADIONAWIGACJA SATELITARNA (Ziemia-kosmos)",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "412",
+    5010000.0,
+    5030000.0,
+    "RUCHOMA LOTNICZA SATELITARNA (R) 5.443AA\nRADIONAWIGACJA LOTNICZA\nRADIONAWIGACJA SATELITARNA (kosmos-Ziemia) (kosmos-\nkosmos) 5.328B 5.443B\nPOL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "413",
+    5030000.0,
+    5091000.0,
+    "RUCHOMA LOTNICZA (R) 5.443C\nRUCHOMA LOTNICZA SATELITARNA (R) 5.443D\nRADIONAWIGACJA LOTNICZA\n5.444 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "414",
+    5091000.0,
+    5150000.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.444A\nRUCHOMA LOTNICZA 5.444B\nRUCHOMA LOTNICZA SATELITARNA (R) 5.443AA\nRADIONAWIGACJA LOTNICZA\n5.444 POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "415",
+    5150000.0,
+    5250000.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos) 5.447A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.446A 5.446B\nRUCHOMA LOTNICZA 5.446C\nRADIONAWIGACJA LOTNICZA\n5.446 5.447B 5.447C POL.25",
+    "cywilne\ncywilne\ncywilno-rz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "416",
+    5250000.0,
+    5255000.0,
+    "RUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.446A 5.447F\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE 5.447D\n5.448A",
+    "cywilne\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "417",
+    5255000.0,
+    5350000.0,
+    "RUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.446A 5.447F\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\n5.448A",
+    "cywilne\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "418",
+    5350000.0,
+    5460000.0,
+    "RADIONAWIGACJA LOTNICZA 5.449\nRADIOLOKALIZACJA 5.448D\nSATELITARNE BADANIA ZIEMI (aktywne) 5.448B\nBADANIA KOSMICZNE (aktywne) 5.448C",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "419",
+    5460000.0,
+    5470000.0,
+    "RADIONAWIGACJA 5.449\nRADIOLOKALIZACJA 5.448D\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\n5.448B",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "420",
+    5470000.0,
+    5570000.0,
+    "RUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.446A 5.450A\nRADIONAWIGACJA MORSKA\nRADIOLOKALIZACJA 5.450B\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE(aktywne)\n5.448B",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "4213)",
+    5570000.0,
+    5650000.0,
+    "RUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.446A 5.450A\nRADIONAWIGACJA MORSKA\nRADIOLOKALIZACJA 5.450B POL.22\n5.452",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "422",
+    5650000.0,
+    5725000.0,
+    "RUCHOMA z wyj\u0105tkiem ruchomej lotniczej 5.446A 5.450A\nRADIOLOKALIZACJA\nAmatorska\nBadania kosmiczne (daleki kosmos)\n5.282",
+    "rz\u0105dowe\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "423",
+    5725000.0,
+    5830000.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos)\nRADIOLOKALIZACJA\nAmatorska\n5.150",
+    "cywilne\nrz\u0105dowe\ncywilne"
+  ],
+  [
+    "424",
+    5830000.0,
+    5850000.0,
+    "STA\u0141A SATELITARNA (Ziemia-kosmos)\nRADIOLOKALIZACJA\nAmatorska\nAmatorska satelitarna (kosmos-Ziemia)\n5.150",
+    "cywilne\nrz\u0105dowe\ncywilne\ncywilne"
+  ],
+  [
+    "425",
+    5850000.0,
+    5925000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\n5.150",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "426",
+    5925000.0,
+    6425000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) 5.457A\nRUCHOMA\nPOL.25",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "427",
+    6425000.0,
+    6700000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\n5.149 5.440 5.458 POL.25",
+    "cywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "428",
+    6700000.0,
+    7075000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos) (kosmos-Ziemia) 5.441\nRUCHOMA\n5.458 5.458A 5.458B POL.25",
+    "cywilno-rz\u0105dowe\ncywilne\nrz\u0105dowe"
+  ],
+  [
+    "429",
+    7075000.0,
+    7145000.0,
+    "STA\u0141A\nRUCHOMA\n5.458 POL.25",
+    "cywilne\ncywilne"
+  ],
+  [
+    "430",
+    7145000.0,
+    7190000.0,
+    "STA\u0141A\nRUCHOMA\nBADANIA KOSMICZNE (daleki kosmos) (Ziemia-kosmos)\n5.458 POL.25",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "431",
+    7190000.0,
+    7235000.0,
+    "STA\u0141A\nRUCHOMA\nSATELITARNE BADANIA ZIEMI (Ziemia-kosmos) 5.460A\n5.460B\nBADANIA KOSMICZNE (Ziemia-kosmos) 5.460\n5.458 POL.25",
+    "cywilne\ncywilne\ncywilne\ncywilne"
+  ],
+  [
+    "432",
+    7235000.0,
+    7250000.0,
+    "STA\u0141A\nRUCHOMA\nSATELITARNE BADANIA ZIEMI (Ziemia-kosmos) 5.460A\n5.458 POL.25",
+    "cywilne\ncywilne\ncywilne"
+  ],
+  [
+    "433",
+    7250000.0,
+    7300000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA\nRUCHOMA SATELITARNA (kosmos-Ziemia) 5.461\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "434",
+    7300000.0,
+    7375000.0,
+    "STA\u0141A POL.47\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRUCHOMA SATELITARNA (kosmos-Ziemia) 5.461\nPOL.25",
+    "cywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "435",
+    7375000.0,
+    7450000.0,
+    "STA\u0141A POL.47\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRUCHOMA MORSKA SATELITARNA (kosmos-Ziemia)\n5.461AA 5.461AB\nPOL.25",
+    "cywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "436",
+    7450000.0,
+    7550000.0,
+    "STA\u0141A POL.47\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRUCHOMA MORSKA SATELITARNA (kosmos-Ziemia)\n5.461AA 5.461AB\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia)\n5.461A",
+    "cywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "437",
+    7550000.0,
+    7750000.0,
+    "STA\u0141A POL.47\nSTA\u0141A SATELITARNA (kosmos-Ziemia)\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nRUCHOMA MORSKA SATELITARNA (kosmos-Ziemia)\n5.461AA 5.461AB",
+    "cywilne\ncywilno-rz\u0105dowe\ncywilne\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "438",
+    7750000.0,
+    7850000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia) 5.461B",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "439",
+    7850000.0,
+    7900000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nMETEOROLOGIA SATELITARNA (kosmos-Ziemia) 5.461B\nPOL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "440",
+    7900000.0,
+    7975000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.461\nPOL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "441",
+    7975000.0,
+    8025000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA\nRUCHOMA SATELITARNA (Ziemia-kosmos) 5.461\nPOL.25",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "442",
+    8025000.0,
+    8175000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA 5.463\nSATELITARNE BADANIA ZIEMI (kosmos-Ziemia)\n5.462A POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "443",
+    8175000.0,
+    8215000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA 5.463\nMETEOROLOGIA SATELITARNA (Ziemia-kosmos)\nSATELITARNE BADANIA ZIEMI (kosmos-Ziemia)\n5.462A POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "444",
+    8215000.0,
+    8400000.0,
+    "STA\u0141A\nSTA\u0141A SATELITARNA (Ziemia-kosmos)\nRUCHOMA 5.463\nSATELITARNE BADANIA ZIEMI (kosmos-Ziemia)\n5.462A POL.25",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "445",
+    8400000.0,
+    8500000.0,
+    "STA\u0141A\nRUCHOMA z wyj\u0105tkiem ruchomej lotniczej\nBADANIA KOSMICZNE (kosmos-Ziemia) 5.465",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "446",
+    8500000.0,
+    8550000.0,
+    "RUCHOMA 5.469\nRADIONAWIGACJA 5.469\nRADIOLOKALIZACJA",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "447",
+    8550000.0,
+    8650000.0,
+    "RUCHOMA 5.469\nRADIONAWIGACJA 5.469\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\n5.469A",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "448",
+    8650000.0,
+    8750000.0,
+    "RUCHOMA 5.469\nRADIONAWIGACJA 5.469\nRADIOLOKALIZACJA",
+    "rz\u0105dowe\nrz\u0105dowe\nrz\u0105dowe"
+  ],
+  [
+    "449",
+    8750000.0,
+    8850000.0,
+    "RADIONAWIGACJA LOTNICZA 5.470\nRADIOLOKALIZACJA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "450",
+    8850000.0,
+    9000000.0,
+    "RADIONAWIGACJA 5.473\nRADIONAWIGACJA MORSKA 5.472\nRADIOLOKALIZACJA",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "451",
+    9000000.0,
+    9200000.0,
+    "RADIONAWIGACJA LOTNICZA 5.337\nRADIOLOKALIZACJA\n5.473A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "452",
+    9200000.0,
+    9300000.0,
+    "RADIONAWIGACJA 5.473\nRADIONAWIGACJA MORSKA 5.472\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne) 5.474A 5.474B\n5.474C\n5.474 5.474D",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ],
+  [
+    "453",
+    9300000.0,
+    9500000.0,
+    "RADIONAWIGACJA\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\n5.427 5.474 5.475 5.475A 5.475B 5.476A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "454",
+    9500000.0,
+    9800000.0,
+    "RADIONAWIGACJA\nRADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne)\nBADANIA KOSMICZNE (aktywne)\n5.476A",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "455",
+    9800000.0,
+    9900000.0,
+    "RADIOLOKALIZACJA\nSta\u0142a\nSatelitarne badania Ziemi (aktywne)\nBadania kosmiczne (aktywne)\n5.478A 5.478B",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilne"
+  ],
+  [
+    "456",
+    9900000.0,
+    10000000.0,
+    "RADIOLOKALIZACJA\nSATELITARNE BADANIA ZIEMI (aktywne) 5.474A 5.474B\n5.474C\nSta\u0142a\n5.474D 5.479",
+    "cywilno-rz\u0105dowe\ncywilno-rz\u0105dowe\ncywilno-rz\u0105dowe"
+  ]
+]

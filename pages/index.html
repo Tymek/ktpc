@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Krajowa Tablica Przeznaczeń Częstotliwości</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  </head>
+  <body>
+    <h1>Krajowa Tablica Przeznaczeń Częstotliwości</h1>
+    <canvas id="canvas" style="width: 100%"></canvas>
+
+    <script>
+      const loadData = async () => {
+        const response = await fetch("/data.json");
+        const data = await response.json();
+
+        const items = data.slice(1); // skip title row
+
+        return {
+          data: items
+            .map((item) => {
+              const [lp, low, high, purpose, usage] = item;
+
+              const purposeLines = purpose
+                .replace(/\n([\(\d])/g, " $1")
+                .split("\n");
+              const usageLines = usage.split("\n");
+              const groups = Array.from(new Set(usageLines));
+              let note = undefined;
+
+              const purposes = [];
+
+              for (let i = 0; i < purposeLines.length; i++) {
+                if (usageLines.length >= i) {
+                  purposes.push({
+                    usage: usageLines[i],
+                    description: purposeLines[i],
+                  });
+                } else if (usageLines.length === purposeLines.length - 1) {
+                  note = purposeLines[i];
+                } else {
+                  console.error("Invalid data", {
+                    x: [usageLines.length, purposeLines.length],
+                    item,
+                  });
+                }
+              }
+
+              return {
+                id: lp,
+                low,
+                high,
+                purpose: purposes,
+                usage: groups,
+              };
+            })
+            .sort((a, b) => a.low - b.low), // sort by starting frequency
+          length: items.length,
+          max: items.reduce((max, item) => Math.max(max, item[2]), 0),
+        };
+      };
+
+      (async () => {
+        const { data, length, max } = await loadData();
+        console.log(data);
+
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+        // canvas.width = 10 + length * 10; // todo: max
+        canvas.width = max;
+        canvas.height = 50000;
+        ctx.fillStyle = "#000000";
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        ctx.font = "10px Courier New";
+        ctx.fillStyle = "#ffffff";
+        ctx.textAlign = "center";
+        // ctx.textBaseline = "middle";
+        ctx.rotate(-Math.PI / 2);
+        ctx.translate(-canvas.height / 2, 0);
+
+        data.forEach(({ low, high }, index) => {
+          ctx.fillText(`${low}-${high}`, 0, 10 + index * 10);
+        });
+      })();
+
+      // fetch("/data.json")
+      //   .then((response) => response.json())
+      //   .then((data) => {
+      //     const canvas = document.getElementById("canvas");
+      //     const ctx = canvas.getContext("2d");
+      //     canvas.width = 10000;
+      //     canvas.height = 1000;
+      //     ctx.fillStyle = "#000000";
+      //     ctx.fillRect(0, 0, canvas.width, canvas.height);
+      //     ctx.font = "10px Arial";
+      //     ctx.fillStyle = "#ffffff";
+      //     ctx.textAlign = "center";
+      //     ctx.textBaseline = "middle";
+      //     ctx.rotate(-Math.PI / 2);
+      //     ctx.translate(-canvas.height/2, 0);
+      //     data.forEach((item, index) => {
+      //       ctx.fillText(item, 0,10+index * 10);
+      //     });
+      //   });
+    </script>
+  </body>
+</html>
