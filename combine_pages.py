@@ -105,7 +105,7 @@ def main():
     # Create the output markdown table
     output = [
         "| Lp. | fdolna | fgórna | Przeznaczenie | Użytkowanie |",
-        "|:---|:-------|:-------|:--------------|:------------|"
+        "|---:|------:|-------:|:--------------|:------------|"
     ]
     
     for row in all_data:

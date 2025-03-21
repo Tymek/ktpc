@@ -1,5 +1,6 @@
-| Lp.  | fdolna       | fgórna       | Przeznaczenie                                                            | Użytkowanie     |
-| :--- | :----------- | :----------- | :----------------------------------------------------------------------- | :-------------- |
+| Lp.  | f_dolna      | f_górna      | Przeznaczenie                                                            | Użytkowanie     |
+| ---: | -----------: | -----------: | :----------------------------------------------------------------------- | :-------------- |
+|      |              | 8.3 kHz      | (Nie przeznaczono)                                                       |                 |
 |      |              |              | 5.53 5.54                                                                |                 |
 | 2    | 8.3 kHz      | 9.0 kHz      | POMOCE METEOROLOGICZNE 5.54A                                             | cywilne         |
 | 3    | 9.0 kHz      | 11.3 kHz     | RADIONAWIGACJA                                                           | cywilno-rządowe |
