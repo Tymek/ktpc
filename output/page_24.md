@@ -5,7 +5,6 @@
 |  2 |     |             |             | RUCHOMA z wyjątkiem ruchomej lotniczej              | rządowe         |
 |  3 |     |             |             | RADIOASTRONOMIA                                     | cywilne         |
 |  4 |     |             |             | 5.149                                               |                 |
-|  5 | 5)  |             |             |                                                     |                 |
 |  6 | 243 | 151,775     | 153,000     | STAŁA                                               | cywilne         |
 |  7 |     |             |             | RUCHOMA z wyjątkiem ruchomej lotniczej POL.52       | cywilne         |
 |  8 |     |             |             | RADIOASTRONOMIA                                     | cywilne         |

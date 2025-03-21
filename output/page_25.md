@@ -15,7 +15,6 @@
 | 12 | 255 | 157,45      | 157,95      | STAŁA                                         | rządowe         |
 | 13 |     |             |             | RUCHOMA z wyjątkiem ruchomej lotniczej        | rządowe         |
 | 14 |     |             |             | POL.25                                        |                 |
-| 15 | 6)  |             |             |                                               |                 |
 | 16 | 256 | 157,950     | 158,575     | STAŁA                                         | cywilne         |
 | 17 |     |             |             | RUCHOMA z wyjątkiem ruchomej lotniczej POL.52 | cywilne         |
 | 18 |     |             |             | POL.25                                        |                 |
