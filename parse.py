@@ -1,7 +1,7 @@
 import os
 import camelot
 
-# NOTE: Manually download "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20240001141/O/D20241141.pdf" and save as "source.pdf"
+# NOTE: Manually download "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230002518/O/D20232518.pdf" and saved as "source.pdf"
 pdf_filename = "source.pdf"
 output_dir = "output"
 
