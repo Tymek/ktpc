@@ -5,5 +5,6 @@ Oczywiście, że nie przepiszę całego bandplanu ręcznie. Jednak przy automaty
 
 Stan z listopada 2023 na podstawie tekstu jednolitego. Nie dodałem jeszcze aktualizacji z lipca 2024.
 
-Wynik?: [ktpc.md](ktpc.md)*
+Wynik?: https://ktpc.vercel.app/*
+
 _(* nie gwarantuję zgodności z oryginałem)_
