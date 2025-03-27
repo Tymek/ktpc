@@ -77,6 +77,46 @@
       padding: 20px;
       font-style: italic;
     }
+
+    .legend-container {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow-x: auto;
+      margin-top: 30px;
+    }
+
+    .legend-items {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 15px;
+    }
+
+    .legend-item {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+
+    .legend-item label {
+      font-weight: 600;
+    }
+
+    .legend-item span {
+      margin-left: 10px;
+    }
+    
+    /* Ensure text on colored backgrounds is readable */
+    td[style*="background-color"] {
+      color: black;
+      font-weight: 500;
+      text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
+    }
+    
+    /* Improve legend layout */
+    .legend-container h2 {
+      padding: 15px 15px 0 15px;
+      margin-bottom: 10px;
+    }
   </style>
 </head>
 
@@ -105,22 +145,51 @@
   </div>
 
   <div class="footnote">
-    <h2>Interpretacja danych:</h2>
+    <h2>Interpretacja danych według kolejności kolumn:</h2>
     <ol>
-      <li>W kolumnie 1 podano numer kolejny zakresu częstotliwości, który ułatwia posługiwanie się Tablicą.</li>
-      <li>W kolumnie 2 i 3 podano częstotliwości graniczne dolne i górne zakresów częstotliwości.</li>
-      <li>W kolumnie 4 podano przeznaczenie dla służb radiokomunikacyjnych. Tam, gdzie było to zasadne, przytoczono również międzynarodowe uwagi wynikające z Regulaminu Radiokomunikacyjnego (oznaczone 5.XXX) oraz umieszczono uwagi krajowe (oznaczenie POL.XX).</li>
-      <li>W kolumnie 5 podano użytkowanie, wskazujące na rodzaj użytkowników mogących wykonywać daną służbę radiokomunikacyjną.</li>
+      <li>Numer kolejny zakresu częstotliwości, który ułatwia posługiwanie się Tablicą.</li>
+      <li>Częstotliwości graniczne dolne zakresów częstotliwości.</li>
+      <li>Częstotliwości graniczne górne zakresów częstotliwości.</li>
+      <li>Przeznaczenie dla służb radiokomunikacyjnych. Tam, gdzie było to zasadne, przytoczono również międzynarodowe uwagi wynikające z Regulaminu Radiokomunikacyjnego (oznaczone 5.XXX) oraz umieszczono uwagi krajowe (oznaczenie POL.XX).</li>
+      <li>Użytkowanie, wskazujące na rodzaj użytkowników mogących wykonywać daną służbę radiokomunikacyjną.</li>
+      <li>Uwagi dotyczące zakresów częstotliwości wynikające z Regulaminu Radiokomunikacyjnego (oznaczone 5.XXX) oraz umieszczono uwagi krajowe (oznaczenie POL.XX).</li>
     </ol>
+  </div>
+
+  <div class="legend-container" id="legendContainer">
+    <h2>Legenda kolorów dla służb radiokomunikacyjnych:</h2>
+    <div class="legend-items" id="legendItems">
+      <!-- Legend items will be added here dynamically -->
+    </div>
   </div>
 
   <script>
     async function loadAndProcessData() {
       try {
-        const response = await fetch('ktpc.md');
-        const text = await response.text();
+        // Load colors and translations
+        const [ktpcResponse, colorsResponse, translationResponse] = await Promise.all([
+          fetch('ktpc.md'),
+          fetch('colors.json'),
+          fetch('translation.md')
+        ]);
+        
+        const text = await ktpcResponse.text();
+        const colors = await colorsResponse.json();
+        const translationText = await translationResponse.text();
+        
+        // Process translation table
+        const translationLines = translationText.split('\n').filter(line => line.trim() && !line.includes('---'));
+        const translationMap = {};
+        const reverseTranslationMap = {};
+        translationLines.slice(1).forEach(line => {
+          const [english, polish] = line.split('|').filter(cell => cell.trim()).map(cell => cell.trim());
+          if (english && polish) {
+            translationMap[polish.toUpperCase()] = english;
+            reverseTranslationMap[english] = polish;
+          }
+        });
+        
         const lines = text.split('\n').filter(line => line.trim());
-
         const dataLines = lines.slice(2); // Skip header row
         
         const tbody = document.getElementById('ktpcBody');
@@ -131,31 +200,168 @@
         let currentFreq = '';
         let currentFreqUpper = '';
         let rows = [];
+        let currentNotes = '';
+        let usedColors = new Set(); // Track used colors
+
+        function cleanServiceName(serviceName) {
+          // Remove POL.XX, 5.XXX notes and anything in parentheses
+          return serviceName
+            .replace(/(?:POL\.\d+|5\.\d+(?:[A-Z])?)/g, '')  // Remove POL.XX and 5.XXX references with optional letter
+            .replace(/\(.*?\)/g, '')  // Remove anything in parentheses
+            .replace(/(aktywne|pasywne)/gi, '')  // Remove active/passive qualifiers
+            .trim();
+        }
+
+        function getColorForService(serviceName) {
+          // Skip coloring for "not allocated" services
+          if (serviceName.includes("Nie przeznaczono")) {
+            return '';
+          }
+          
+          // Clean up the service name and convert to uppercase for case-insensitive matching
+          const cleanedName = cleanServiceName(serviceName).toUpperCase();
+          
+          // Direct mapping for specific problematic services
+          const directMappings = {
+            "SATELITARNE BADANIA ZIEMI": "EARTH EXPLORATION SATELLITE",
+            "SATELITARNE BADANIA ZIEMI PASYWNE": "EARTH EXPLORATION SATELLITE",
+            "SATELITARNE BADANIA ZIEMI AKTYWNE": "EARTH EXPLORATION SATELLITE",
+            "WZORCOWY SATELITARNY SYGNAŁ CZĘSTOTLIWOŚCI I CZASU": "STANDARD FREQUENCY AND TIME SIGNAL SATELLITE"
+          };
+          
+          // Check direct mappings first
+          for (const [key, value] of Object.entries(directMappings)) {
+            if (cleanedName.includes(key)) {
+              usedColors.add(value);
+              return colors[value];
+            }
+          }
+          
+          // Handle special case for "MOBILE except aeronautical mobile"
+          if (cleanedName.includes("Z WYJĄTKIEM") || cleanedName.includes("Z WYJ")) {
+            if (cleanedName.includes("LOTNICZEJ")) {
+              usedColors.add("MOBILE except aeronautical mobile");
+              return colors["MOBILE except aeronautical mobile"] || colors["MOBILE"];
+            }
+          }
+          
+          // Try exact match first
+          let englishName = translationMap[cleanedName];
+          
+          // If no exact match, try partial match
+          if (!englishName) {
+            // First check for key terms
+            const keyTerms = {
+              "AMATORSKA": "AMATEUR",
+              "AMATORSKA SATELITARNA": "AMATEUR SATELLITE",
+              "BADANIA KOSMICZNE": "SPACE RESEARCH",
+              "METEOROLOGICZNE": "METEOROLOGICAL AIDS",
+              "POMOCE METEOROLOGICZNE": "METEOROLOGICAL AIDS",
+              "OPERACJE KOSMICZNE": "SPACE OPERATION", 
+              "SATELITARNE BADANIA ZIEMI": "EARTH EXPLORATION SATELLITE",
+              "RUCHOMA": "MOBILE",
+              "STAŁA": "FIXED",
+              "RADIODYFUZJA": "BROADCASTING",
+              "RADIONAWIGACJA": "RADIONAVIGATION",
+              "RADIOLOKALIZACJA": "RADIOLOCATION",
+              "RADIOASTRONOMIA": "RADIO ASTRONOMY"
+            };
+            
+            for (const [key, value] of Object.entries(keyTerms)) {
+              if (cleanedName.includes(key)) {
+                englishName = value;
+                break;
+              }
+            }
+            
+            // If still no match, try the traditional way
+            if (!englishName) {
+              for (const [polish, english] of Object.entries(translationMap)) {
+                if (cleanedName.includes(polish) || polish.includes(cleanedName)) {
+                  englishName = english;
+                  break;
+                }
+              }
+            }
+          }
+          
+          // If we have a match and a color for it, return the color
+          if (englishName && colors[englishName]) {
+            usedColors.add(englishName); // Track that this color was used
+            return colors[englishName];
+          }
+          
+          // Special case mappings for services with slightly different names in colors.json
+          const specialMappings = {
+            "METEOROLOGICAL AIDS": "METEOROLOGICAL",
+          };
+          
+          if (englishName && specialMappings[englishName] && colors[specialMappings[englishName]]) {
+            const mappedName = specialMappings[englishName];
+            usedColors.add(mappedName);
+            return colors[mappedName];
+          }
+          
+          // If no match found, check if it's a satellite version of a service
+          if (cleanedName.includes("SATELITARNA") || cleanedName.includes("SATELIT")) {
+            // Try to find the base service without satellite
+            const baseServiceName = cleanedName.replace(/SATELITARNA|SATELIT/g, "").trim();
+            
+            // Look for the base service
+            let baseEnglishName = translationMap[baseServiceName];
+            
+            if (!baseEnglishName) {
+              for (const [polish, english] of Object.entries(translationMap)) {
+                if (baseServiceName.includes(polish) || polish.includes(baseServiceName)) {
+                  baseEnglishName = english;
+                  break;
+                }
+              }
+            }
+            
+            // If we found a base service, look for its satellite version
+            if (baseEnglishName) {
+              const satelliteServiceName = baseEnglishName + " SATELLITE";
+              if (colors[satelliteServiceName]) {
+                usedColors.add(satelliteServiceName);
+                return colors[satelliteServiceName];
+              }
+            }
+          }
+          
+          return '';
+        }
 
         function addRowsToTable(rows, currentRowspan, currentLp, currentFreq, currentFreqUpper, currentNotes) {
           if (rows.length === 0) return;
           
           const tr = document.createElement('tr');
+          
+          // Get color for the first service
+          const serviceColor = getColorForService(rows[0].przeznaczenie);
+          
           tr.innerHTML = `
             <td rowspan="${currentRowspan}">${currentLp}</td>
             <td rowspan="${currentRowspan}" class="frequency">${currentFreq}</td>
             <td rowspan="${currentRowspan}" class="frequency">${currentFreqUpper}</td>
-            <td>${rows[0].przeznaczenie}</td>
+            <td style="${serviceColor ? 'background-color: ' + serviceColor + ';' : ''}">${rows[0].przeznaczenie}</td>
             <td>${rows[0].uzytkowanie}</td>
             <td rowspan="${currentRowspan}">${currentNotes}</td>
           `;
           tbody.appendChild(tr);
           
           rows.slice(1).forEach(row => {
+            const serviceColor = getColorForService(row.przeznaczenie);
+            
             const subTr = document.createElement('tr');
             subTr.innerHTML = `
-              <td>${row.przeznaczenie}</td>
+              <td style="${serviceColor ? 'background-color: ' + serviceColor + ';' : ''}">${row.przeznaczenie}</td>
               <td>${row.uzytkowanie}</td>
             `;
             tbody.appendChild(subTr);
           });
         }
-        console.table(dataLines)
+        
         dataLines.forEach(line => {
           const cells = line.trim().split('|').slice(1, -1).map(cell => cell.trim());
           
@@ -198,14 +404,44 @@
         
         // Add the last group of rows
         addRowsToTable(rows, currentRowspan, currentLp, currentFreq, currentFreqUpper, currentNotes);
+        
+        // Populate the legend with only used colors
+        populateLegend(colors, reverseTranslationMap, usedColors);
       } catch (error) {
         console.error('Error loading data:', error);
         document.getElementById('ktpcBody').innerHTML = `
           <tr>
-            <td colspan="6" style="color: red;">Wystąpił błąd podczas ładowania danych.</td>
+            <td colspan="6" style="color: red;">Wystąpił błąd podczas ładowania danych: ${error.message}</td>
           </tr>
         `;
       }
+    }
+
+    function populateLegend(colors, translationMap, usedColors) {
+      const legendItems = document.getElementById('legendItems');
+      legendItems.innerHTML = '';
+      
+      Object.entries(colors).forEach(([serviceName, color]) => {
+        // Only show colors that were actually used in the table
+        if (usedColors.has(serviceName)) {
+          const polishName = translationMap[serviceName] || serviceName;
+          
+          const item = document.createElement('div');
+          item.className = 'legend-item';
+          item.innerHTML = `
+            <div style="display: flex; align-items: center;">
+              <div style="width: 20px; height: 20px; background-color: ${color}; margin-right: 10px;"></div>
+              <span>${polishName}</span>
+            </div>
+          `;
+          
+          legendItems.appendChild(item);
+        }
+      });
+      
+      // Hide the legend container if no colors were used
+      document.getElementById('legendContainer').style.display = 
+        usedColors.size > 0 ? 'block' : 'none';
     }
 
     loadAndProcessData();
