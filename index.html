@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Krajowa Tablica Przeznaczeń Częstotliwości</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      line-height: 1.6;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+      font-size: 14px;
+    }
+
+    h1 {
+      color: #2c3e50;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .table-container {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      overflow-x: auto;
+      margin-bottom: 30px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0;
+    }
+
+    th,
+    td {
+      padding: 4px 12px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th:last-child,
+    td:last-child {
+      width: 150px;
+    }
+    
+    th {
+      background-color: #f8f9fa;
+      font-weight: 600;
+      color: #2c3e50;
+    }
+
+    tr:hover {
+      background-color: #f8f9fa;
+    }
+
+    .frequency {
+      font-family: monospace;
+      white-space: nowrap;
+    }
+
+    .footnote {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 20px;
+      padding: 15px;
+      background-color: #f8f9fa;
+      border-radius: 4px;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 20px;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Krajowa Tablica Przeznaczeń Częstotliwości</h1>
+
+  <div class="table-container">
+    <table id="ktpcTable">
+      <thead>
+        <tr>
+          <th>Lp.</th>
+          <th>f<sub>dolna</sub></th>
+          <th>f<sub>górna</sub></th>
+          <th>Przeznaczenie</th>
+          <th>Użytkowanie</th>
+          <th>Uwagi</th>
+        </tr>
+      </thead>
+      <tbody id="ktpcBody">
+        <tr>
+          <td colspan="6" class="loading">Ładowanie danych...</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footnote">
+    <h2>Interpretacja danych:</h2>
+    <ol>
+      <li>W kolumnie 1 podano numer kolejny zakresu częstotliwości, który ułatwia posługiwanie się Tablicą.</li>
+      <li>W kolumnie 2 i 3 podano częstotliwości graniczne dolne i górne zakresów częstotliwości.</li>
+      <li>W kolumnie 4 podano przeznaczenie dla służb radiokomunikacyjnych. Tam, gdzie było to zasadne, przytoczono również międzynarodowe uwagi wynikające z Regulaminu Radiokomunikacyjnego (oznaczone 5.XXX) oraz umieszczono uwagi krajowe (oznaczenie POL.XX).</li>
+      <li>W kolumnie 5 podano użytkowanie, wskazujące na rodzaj użytkowników mogących wykonywać daną służbę radiokomunikacyjną.</li>
+    </ol>
+  </div>
+
+  <script>
+    async function loadAndProcessData() {
+      try {
+        const response = await fetch('ktpc.md');
+        const text = await response.text();
+        const lines = text.split('\n').filter(line => line.trim());
+
+        const dataLines = lines.slice(2); // Skip header row
+        
+        const tbody = document.getElementById('ktpcBody');
+        tbody.innerHTML = '';
+        
+        let currentRowspan = 1;
+        let currentLp = '';
+        let currentFreq = '';
+        let currentFreqUpper = '';
+        let rows = [];
+
+        function addRowsToTable(rows, currentRowspan, currentLp, currentFreq, currentFreqUpper, currentNotes) {
+          if (rows.length === 0) return;
+          
+          const tr = document.createElement('tr');
+          tr.innerHTML = `
+            <td rowspan="${currentRowspan}">${currentLp}</td>
+            <td rowspan="${currentRowspan}" class="frequency">${currentFreq}</td>
+            <td rowspan="${currentRowspan}" class="frequency">${currentFreqUpper}</td>
+            <td>${rows[0].przeznaczenie}</td>
+            <td>${rows[0].uzytkowanie}</td>
+            <td rowspan="${currentRowspan}">${currentNotes}</td>
+          `;
+          tbody.appendChild(tr);
+          
+          rows.slice(1).forEach(row => {
+            const subTr = document.createElement('tr');
+            subTr.innerHTML = `
+              <td>${row.przeznaczenie}</td>
+              <td>${row.uzytkowanie}</td>
+            `;
+            tbody.appendChild(subTr);
+          });
+        }
+        console.table(dataLines)
+        dataLines.forEach(line => {
+          const cells = line.trim().split('|').slice(1, -1).map(cell => cell.trim());
+          
+          const [lp, fDolna, fGorna, przeznaczenie, uzytkowanie] = cells.map(cell => cell.trim());
+          
+          // Check if this is a standalone note row (only contains POL.XX or 5.XXX)
+          const isStandaloneNote = przeznaczenie.match(/^(?:POL\.\d+|5\.\d+).*$/);
+          
+          if (isStandaloneNote) {
+            // If this is a new frequency range (has Lp), start fresh with notes
+            if (lp) {
+              currentNotes = przeznaczenie;
+            } else {
+              // For continuation rows, append to existing notes if not already present
+              if (!currentNotes.includes(przeznaczenie)) {
+                currentNotes = currentNotes ? `${currentNotes} ${przeznaczenie}` : przeznaczenie;
+              }
+            }
+            // Skip adding this row to the table since it's just a note
+            return;
+          }
+          
+          // If Lp is empty, it's a continuation of the previous frequency range
+          if (!lp) {
+            currentRowspan++;
+            rows.push({ przeznaczenie, uzytkowanie });
+          } else {
+            // Clear rows buffer - If we have previous rows, add them to the table
+            addRowsToTable(rows, currentRowspan, currentLp, currentFreq, currentFreqUpper, currentNotes);
+            
+            // Start new group
+            currentLp = lp;
+            currentFreq = fDolna;
+            currentFreqUpper = fGorna;
+            currentRowspan = 1;
+            currentNotes = ''; // Reset notes for new frequency range
+            rows = [{ przeznaczenie, uzytkowanie }];
+          }
+        });
+        
+        // Add the last group of rows
+        addRowsToTable(rows, currentRowspan, currentLp, currentFreq, currentFreqUpper, currentNotes);
+      } catch (error) {
+        console.error('Error loading data:', error);
+        document.getElementById('ktpcBody').innerHTML = `
+          <tr>
+            <td colspan="6" style="color: red;">Wystąpił błąd podczas ładowania danych.</td>
+          </tr>
+        `;
+      }
+    }
+
+    loadAndProcessData();
+  </script>
+
+</body>
+
+</html>

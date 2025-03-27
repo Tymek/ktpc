@@ -1,9 +1,9 @@
 | Lp.  | f_dolna      | f_górna      | Przeznaczenie                                                            | Użytkowanie     |
 | ---: | -----------: | -----------: | :----------------------------------------------------------------------- | :-------------- |
-|      |              | 8.3 kHz      | (Nie przeznaczono)                                                       |                 |
+| 1    |              | 8.3 kHz      | (Nie przeznaczono)                                                       |                 |
 |      |              |              | 5.53 5.54                                                                |                 |
 | 2    | 8.3 kHz      | 9.0 kHz      | POMOCE METEOROLOGICZNE 5.54A                                             | cywilne         |
-| 3    | 9.0 kHz      | 11.3 kHz     | RADIONAWIGACJA                                                           | cywilno-rządowe |
+| 3    | 9.0 kHz      | 11.3 kHz     | RADIONAWIGACJA                                                           | cywilno-rządowe |OMOCE METEOROLOGICZNE 5.54
 |      |              |              | POMOCE METEOROLOGICZNE 5.54A                                             | cywilne         |
 | 4    | 11.3 kHz     | 14.0 kHz     | RADIONAWIGACJA                                                           | cywilno-rządowe |
 | 5    | 14.00 kHz    | 19.95 kHz    | STAŁA                                                                    | cywilno-rządowe |
